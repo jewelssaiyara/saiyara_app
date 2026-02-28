@@ -1,18 +1,5 @@
 [
   {
-    "id": "1001",
-    "name": "Zara Bangle Set",
-    "material": "Gold-plated alloy",
-    "price": 4200,
-    "offerPrice": 3500,
-    "category": "Bangles",
-    "isBestSeller": true,
-    "images": [
-      "https://rosywine.in/cdn/shop/files/k5_21581f7f-9b0a-4d43-8a83-a22b76c90a64.avif?v=1758490252&width=1200",
-      "https://rosywine.in/cdn/shop/files/k3_9a14cc84-c933-4aa7-88dd-1ba95d793609.avif?v=1766234373&width=1200"
-    ]
-  },
-  {
     "id": "1002",
     "name": "Noor Halo Ring",
     "material": "18k gold finish",
