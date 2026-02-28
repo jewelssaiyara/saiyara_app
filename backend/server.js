@@ -1,3 +1,4 @@
+import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import fs from "fs/promises";
@@ -6,6 +7,11 @@ import { fileURLToPath } from "url";
 
 const app = express();
 const PORT = 5000;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+dotenv.config({ path: path.join(__dirname, ".env") });
+
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "saiyara-admin";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_OWNER = process.env.GITHUB_OWNER;
@@ -16,9 +22,6 @@ const GITHUB_IMAGES_PATH =
 const GITHUB_PRODUCTS_PATH =
   process.env.GITHUB_PRODUCTS_PATH || "backend/products.json";
 const GITHUB_SALE_PATH = process.env.GITHUB_SALE_PATH || "backend/sale.json";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const dataPath = path.join(__dirname, "products.json");
 const salePath = path.join(__dirname, "sale.json");
 
