@@ -117,7 +117,9 @@ const readProductsFromGithub = async (config) => {
   }
 
   const payload = await response.json();
-  const content = Buffer.from(payload.content || "", "base64").toString("utf-8");
+  const content = Buffer.from(payload.content || "", "base64").toString(
+    "utf-8",
+  );
   return JSON.parse(content || "[]");
 };
 
@@ -143,7 +145,9 @@ const readSaleFromGithub = async (config) => {
   }
 
   const payload = await response.json();
-  const content = Buffer.from(payload.content || "", "base64").toString("utf-8");
+  const content = Buffer.from(payload.content || "", "base64").toString(
+    "utf-8",
+  );
   return JSON.parse(content || "null");
 };
 
@@ -173,7 +177,9 @@ const writeProductsToGithub = async (config, products) => {
     },
     body: JSON.stringify({
       message: "Update products.json",
-      content: Buffer.from(JSON.stringify(products, null, 2)).toString("base64"),
+      content: Buffer.from(JSON.stringify(products, null, 2)).toString(
+        "base64",
+      ),
       branch: config.branch,
       sha,
     }),
@@ -428,16 +434,25 @@ const sanitizeCategory = (category) => {
 
   const normalized = category.trim().toLowerCase();
   if (normalized.includes("bangle")) {
+    if (normalized.includes("cuff")) {
+      return "Cuff Bangles";
+    }
     return "Bangles";
+  }
+  if (normalized.includes("cuff")) {
+    return "Cuff Bangles";
   }
   if (normalized.includes("ring")) {
     return "Rings";
   }
   if (normalized.includes("bracelet")) {
-    return "Bracelet";
+    return "Bracelets";
   }
-  if (normalized.includes("necklace")) {
-    return "Necklace";
+  if (normalized.includes("earring")) {
+    return "Earrings";
+  }
+  if (normalized.includes("neck")) {
+    return "Neckpieces";
   }
   return "";
 };
