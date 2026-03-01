@@ -1,20 +1,5 @@
 [
   {
-    "id": "1772345415697",
-    "name": "Mohabath",
-    "material": "Anti Tarnish",
-    "price": 1234,
-    "offerPrice": 199,
-    "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772345392733-mohabath-1772345391244-9d786f1a-5822-484f-b63d-1ad602667a38.jpeg?token=B7BCHDXQ6AH2BIZPQ4QDK2TJUPMG2",
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772345400980-mohabath-1772345399965-9b72c335-dbdb-4b7d-beae-1f58f7887326.jpeg?token=B7BCHDV6QBE4ODTI3HRFFZDJUPMHK",
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772345412129-mohabath-1772345408457-905a0a33-0cbe-46ec-902e-75932439dbf5.jpeg?token=B7BCHDUZ5HVC4SLD3SMXFO3JUPMIA"
-    ],
-    "category": "Rings",
-    "isBestSeller": true,
-    "isNewArrival": true
-  },
-  {
     "id": "1772346649092",
     "name": "Circle Pendant Neckpiece",
     "material": "Anti Tarnish",
