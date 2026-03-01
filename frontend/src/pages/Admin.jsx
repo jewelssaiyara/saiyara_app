@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { clearAuthToken, getAuthHeader } from "../utils/auth.js";
 import { CATEGORY_OPTIONS } from "../utils/catalog.js";
@@ -47,12 +47,14 @@ const MAX_IMAGE_BYTES = 2 * 1024 * 1024;
 
 const Admin = () => {
   const navigate = useNavigate();
+  const formRef = useRef(null);
   const [products, setProducts] = useState([]);
   const [form, setForm] = useState(emptyForm);
   const [isSaving, setIsSaving] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
+  const [feedback, setFeedback] = useState(null);
   const [sale, setSale] = useState({
     name: "",
     description: "",
@@ -116,8 +118,35 @@ const Admin = () => {
     loadSale();
   }, []);
 
+  useEffect(() => {
+    if (!feedback) return;
+    const timeout = setTimeout(() => setFeedback(null), 3000);
+    return () => clearTimeout(timeout);
+  }, [feedback]);
+
   const updateField = (field, value) => {
     setForm((prev) => ({ ...prev, [field]: value }));
+  };
+
+  const parseErrorMessage = async (response, fallback) => {
+    try {
+      const data = await response.json();
+      return data?.message || data?.error || fallback;
+    } catch (error) {
+      return fallback;
+    }
+  };
+
+  const hasRequiredFields = () => {
+    if (!form.category) return false;
+    if (!form.name?.trim()) return false;
+    if (!form.material?.trim()) return false;
+    if (form.price === "" || Number.isNaN(Number(form.price))) return false;
+    if (form.offerPrice === "" || Number.isNaN(Number(form.offerPrice))) {
+      return false;
+    }
+    if (!form.images?.length) return false;
+    return true;
   };
 
   const handleImageFiles = async (event) => {
@@ -206,6 +235,7 @@ const Admin = () => {
       isBestSeller: Boolean(product.isBestSeller),
       isNewArrival: Boolean(product.isNewArrival),
     });
+    formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const handleDelete = async (id) => {
@@ -214,20 +244,39 @@ const Admin = () => {
     }
 
     try {
-      await fetch(`${API_URL}/products/${id}`, {
+      setFeedback(null);
+      const response = await fetch(`${API_URL}/products/${id}`, {
         method: "DELETE",
         headers: {
           ...getAuthHeader(),
         },
       });
-      await loadProducts();
+      if (!response.ok) {
+        const message = await parseErrorMessage(
+          response,
+          "Failed to delete product."
+        );
+        throw new Error(message);
+      }
+      setProducts((prev) => prev.filter((item) => item.id !== id));
+      loadProducts();
+      setFeedback({ type: "success", message: "Product deleted successfully." });
     } catch (error) {
       console.error("Failed to delete product", error);
+      setFeedback({
+        type: "error",
+        message: error?.message || "Failed to delete product.",
+      });
     }
   };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setFeedback(null);
+    if (!hasRequiredFields()) {
+      window.alert("Please add the mandatory items marked with *.");
+      return;
+    }
     setIsSaving(true);
 
     const payload = {
@@ -241,9 +290,15 @@ const Admin = () => {
       isNewArrival: Boolean(form.isNewArrival),
     };
 
+    const actionLabel = isEditing ? "update" : "add";
+    const successMessage = isEditing
+      ? "Product updated successfully."
+      : "Product added successfully.";
+
     try {
+      let response;
       if (isEditing) {
-        await fetch(`${API_URL}/products/${form.id}`, {
+        response = await fetch(`${API_URL}/products/${form.id}`, {
           method: "PUT",
           headers: {
             "Content-Type": "application/json",
@@ -252,7 +307,7 @@ const Admin = () => {
           body: JSON.stringify(payload),
         });
       } else {
-        await fetch(`${API_URL}/products`, {
+        response = await fetch(`${API_URL}/products`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -262,10 +317,33 @@ const Admin = () => {
         });
       }
 
-      await loadProducts();
+      if (!response.ok) {
+        const message = await parseErrorMessage(
+          response,
+          `Failed to ${actionLabel} product.`
+        );
+        throw new Error(message);
+      }
+
+      const savedProduct = await response.json().catch(() => null);
+      if (savedProduct?.id) {
+        setProducts((prev) =>
+          isEditing
+            ? prev.map((item) =>
+                item.id === savedProduct.id ? savedProduct : item
+              )
+            : [...prev, savedProduct]
+        );
+      }
+      loadProducts();
       resetForm();
+      setFeedback({ type: "success", message: successMessage });
     } catch (error) {
       console.error("Failed to save product", error);
+      setFeedback({
+        type: "error",
+        message: error?.message || `Failed to ${actionLabel} product.`,
+      });
     } finally {
       setIsSaving(false);
     }
@@ -358,9 +436,23 @@ const Admin = () => {
         <p className="eyebrow">Admin</p>
         <h1 className="section-title">Jewellery management</h1>
       </div>
+      {feedback && (
+        <div
+          className={`snackbar snackbar--${feedback.type}`}
+          role={feedback.type === "error" ? "alert" : "status"}
+          aria-live="polite"
+        >
+          {feedback.message}
+        </div>
+      )}
 
       <div className="layout-split">
-        <form onSubmit={handleSubmit} className="form">
+        <form
+          ref={formRef}
+          onSubmit={handleSubmit}
+          className="form"
+          noValidate
+        >
           <div className="form__title">
             <h2>{isEditing ? "Edit product" : "Add new product"}</h2>
             {isEditing && (
@@ -386,11 +478,14 @@ const Admin = () => {
           </button>
 
           <div className="form__label">
-            <span>Category</span>
+            <span className="form__label-text">
+              Category <span className="required-asterisk">*</span>
+            </span>
             <select
               value={form.category}
               onChange={(event) => updateField("category", event.target.value)}
               className="form__input form__input--full form__select"
+              required
             >
               {CATEGORY_OPTIONS.map((category) => (
                 <option key={category.id} value={category.value}>
@@ -401,7 +496,9 @@ const Admin = () => {
           </div>
 
           <label className="form__label">
-            Name
+            <span className="form__label-text">
+              Name <span className="required-asterisk">*</span>
+            </span>
             <input
               type="text"
               value={form.name}
@@ -413,7 +510,9 @@ const Admin = () => {
           </label>
 
           <label className="form__label">
-            Material
+            <span className="form__label-text">
+              Material <span className="required-asterisk">*</span>
+            </span>
             <input
               type="text"
               value={form.material}
@@ -426,17 +525,22 @@ const Admin = () => {
 
           <div className="form__row">
             <label className="form__label">
-              Actual price
+              <span className="form__label-text">
+                Actual price <span className="required-asterisk">*</span>
+              </span>
               <input
                 type="number"
                 value={form.price}
                 onChange={(event) => updateField("price", event.target.value)}
                 className="form__input form__input--full"
                 placeholder="12999"
+                required
               />
             </label>
             <label className="form__label">
-              Offer price
+              <span className="form__label-text">
+                Offer price <span className="required-asterisk">*</span>
+              </span>
               <input
                 type="number"
                 value={form.offerPrice}
@@ -484,7 +588,9 @@ const Admin = () => {
 
           <div className="image-list">
             <div style={{ display: "flex", justifyContent: "space-between" }}>
-              <p className="eyebrow">Images</p>
+              <p className="eyebrow form__label-text">
+                Images <span className="required-asterisk">*</span>
+              </p>
               <span className="helper">
                 {form.images.length}/{MAX_IMAGES}
               </span>
@@ -519,7 +625,7 @@ const Admin = () => {
 
           <button
             type="submit"
-            disabled={isSaving || isUploading || form.images.length === 0}
+            disabled={isSaving || isUploading}
             className="button button--primary"
           >
             {isUploading

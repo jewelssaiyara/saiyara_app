@@ -961,6 +961,12 @@ a {
   color: #0f172a;
 }
 
+.form__label-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .form__input,
 .form__select {
   padding: 10px 12px;
@@ -987,6 +993,30 @@ a {
 
 .helper--error {
   color: #ef4444;
+}
+
+.snackbar {
+  position: fixed;
+  left: 50%;
+  top: 24px;
+  transform: translateX(-50%);
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18);
+  z-index: 60;
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.snackbar--success {
+  border-color: #0f172a;
+}
+
+.snackbar--error {
+  border-color: #ef4444;
 }
 
 .layout-split {
@@ -1105,8 +1135,9 @@ a {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(90px, 90px));
   gap: 10px;
+  justify-content: flex-start;
 }
 
 .image-item {
@@ -1115,6 +1146,7 @@ a {
   overflow: hidden;
   border: 1px solid #e2e8f0;
   background: #f8fafc;
+  height: 90px;
 }
 
 .image-item img {
@@ -1133,6 +1165,14 @@ a {
   padding: 0;
   border-radius: 999px;
   line-height: 1;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.required-asterisk {
+  color: #ef4444;
 }
 
 .carousel {
