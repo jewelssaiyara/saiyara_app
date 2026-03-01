@@ -42,16 +42,5 @@
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772346865458-golden-bangles-1772346862675-1000402835.png?token=B7BCHDRDS5T7WXNL3GNYYVTJUPPC4"
     ],
     "category": "Bangles"
-  },
-  {
-    "id": "1772346903499",
-    "name": "Heart Golden bangles",
-    "material": "Anti Tarnish",
-    "price": 339,
-    "offerPrice": 239,
-    "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772346899207-heart-golden-bangles-1772346896395-1000402837.png?token=B7BCHDWTFB4Y3R4O424VX5DJUPPE6"
-    ],
-    "category": "Bangles"
   }
 ]
