@@ -42,5 +42,16 @@
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772346835480-sleek-golden-bangles-1772346832643-1000402834.png?token=B7BCHDS4ATSUXPRURIKX3YLJUPPBA"
     ],
     "category": "Bangles"
+  },
+  {
+    "id": "1772346871076",
+    "name": "Golden Bangles",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772346865458-golden-bangles-1772346862675-1000402835.png?token=B7BCHDRDS5T7WXNL3GNYYVTJUPPC4"
+    ],
+    "category": "Bangles"
   }
 ]
