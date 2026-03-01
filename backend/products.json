@@ -87,5 +87,16 @@
     "category": "Rings",
     "isBestSeller": true,
     "isNewArrival": true
+  },
+  {
+    "id": "1772381913723",
+    "name": "weere",
+    "material": "ere",
+    "price": 879,
+    "offerPrice": 58,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772381910520-weere-1772381910508-screenshot-from-2026-03-01-11-12-32.png"
+    ],
+    "category": "Bangles"
   }
 ]
