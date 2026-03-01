@@ -20,5 +20,16 @@
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772346709805-heart-pendant-neckpiece-1772346707650-1000402555.png?token=B7BCHDQJYUUAITOGBVG2VDLJUPOZE"
     ],
     "category": "Neckpieces"
+  },
+  {
+    "id": "1772346756187",
+    "name": "Little heart Pendant",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772346750946-little-heart-pendant-1772346748222-1000402554.png?token=B7BCHDWDWTE7WNDJMPQ4OC3JUPO3W"
+    ],
+    "category": "Neckpieces"
   }
 ]
