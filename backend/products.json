@@ -87,5 +87,18 @@
     "category": "Rings",
     "isBestSeller": true,
     "isNewArrival": true
+  },
+  {
+    "id": "1772382091293",
+    "name": "Star pendant neckpieces",
+    "material": "anti tarnish",
+    "price": 800,
+    "offerPrice": 450,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772382086178-star-pendant-neckpieces-1772382086147-screenshot-from-2026-03-01-21-50-49.png"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
