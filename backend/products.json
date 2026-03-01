@@ -84,6 +84,8 @@
     "images": [
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368442305-cross-shaped-ring-1772368441919-1000402832.png"
     ],
-    "category": "Rings"
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
