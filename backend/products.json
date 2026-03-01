@@ -1,18 +1,5 @@
 [
   {
-    "id": "1772345250859",
-    "name": "afjhaKJFHK",
-    "material": "JSAFJ",
-    "price": 11,
-    "offerPrice": 1,
-    "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772345247621-afjhakjfhk-1772345246087-screenshot-2026-02-23-at-1.55.45-pm.png?token=B7BCHDVNKLKRP4LWUNOQPQDJUPL5Y"
-    ],
-    "category": "Neckpieces",
-    "isBestSeller": true,
-    "isNewArrival": true
-  },
-  {
     "id": "1772345415697",
     "name": "Mohabath",
     "material": "Anti Tarnish",
