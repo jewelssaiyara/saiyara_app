@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "1772343744635",
+    "name": "we",
+    "material": "ew",
+    "price": 336,
+    "offerPrice": 234,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772343739614-we-1772343739585-screenshot-from-2026-02-27-12-51-14.png?token=A2LX7IRL4BHCDAQXNOOFYJTJUPI7S"
+    ],
+    "category": "Bangles"
+  }
+]
