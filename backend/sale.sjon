@@ -1,0 +1,21 @@
+{
+  "current": {
+    "name": "Offer",
+    "description": "New offer",
+    "price": 1,
+    "startDate": "2026-03-01",
+    "endDate": "2026-03-01",
+    "enabled": true
+  },
+  "history": [
+    {
+      "id": "1772345471469",
+      "name": "Offer",
+      "description": "New offer",
+      "price": 1,
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-01",
+      "enabledAt": "2026-03-01T06:11:11.469Z"
+    }
+  ]
+}
