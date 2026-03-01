@@ -75,5 +75,16 @@
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772346918410-product-1772346916940-1000402833.png?token=B7BCHDRLOBZ6W26N3HQQCC3JUPPGG"
     ],
     "category": "Rings"
+  },
+  {
+    "id": "1772347032237",
+    "name": "Cross shaped Ring",
+    "material": "Anti tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772347028177-cross-shaped-ring-1772347025670-1000402832.png?token=B7BCHDTTPD6WPQECLZKIG4TJUPPNA"
+    ],
+    "category": "Rings"
   }
 ]
