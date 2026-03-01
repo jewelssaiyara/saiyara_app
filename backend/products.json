@@ -71,6 +71,8 @@
     "images": [
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368391284-product-1772368390722-1000402833.png"
     ],
-    "category": "Rings"
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
