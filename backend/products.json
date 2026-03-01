@@ -35,5 +35,16 @@
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368290036-little-heart-pendant-neckpiece-1772368289288-1000402554.png"
     ],
     "category": "Neckpieces"
+  },
+  {
+    "id": "1772368336601",
+    "name": "Heart Bangle",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368333013-heart-bangle-1772368331904-1000402837.png"
+    ],
+    "category": "Bangles"
   }
 ]
