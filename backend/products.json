@@ -9,18 +9,5 @@
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772301689512-product-1772301689474-screenshot-from-2026-02-27-14-43-19.png?token=A2LX7ISMHNVK5AOGDTHT5ZDJUMW3M"
     ],
     "category": "Neckpieces"
-  },
-  {
-    "id": "1772301747795",
-    "name": "gahlgka",
-    "material": "ag",
-    "price": 444,
-    "offerPrice": 22,
-    "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772301742595-gahlgka-1772301742559-screenshot-from-2026-02-27-13-02-44.png?token=A2LX7ITNZ76Q6YS2MNNJPFDJUMW6Y"
-    ],
-    "category": "Bracelets",
-    "isBestSeller": true,
-    "isNewArrival": true
   }
 ]
