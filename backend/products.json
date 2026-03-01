@@ -87,5 +87,16 @@
     "category": "Rings",
     "isBestSeller": true,
     "isNewArrival": true
+  },
+  {
+    "id": "1772381884176",
+    "name": "dee",
+    "material": "er",
+    "price": 9999,
+    "offerPrice": 58,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772381880883-dee-1772381880871-screenshot-from-2026-03-01-10-48-24.png"
+    ],
+    "category": "Bangles"
   }
 ]
