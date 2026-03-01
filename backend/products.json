@@ -58,6 +58,8 @@
     "images": [
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368366260-sleek-bangles-1772368364732-1000402835.png"
     ],
-    "category": "Bangles"
+    "category": "Bangles",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
