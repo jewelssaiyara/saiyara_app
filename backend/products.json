@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "1772366006511",
+    "name": "SDDDF",
+    "material": "hfjh",
+    "price": 1111,
+    "offerPrice": 11,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772366003543-sdddf-1772366001701-image_20260204_152915_141.jpeg"
+    ],
+    "category": "Neckpieces"
+  }
+]
