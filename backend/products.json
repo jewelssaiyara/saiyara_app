@@ -26,5 +26,16 @@
     "category": "Rings",
     "isBestSeller": true,
     "isNewArrival": true
+  },
+  {
+    "id": "1772346649092",
+    "name": "Circle Pendant Neckpiece",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772346644597-circle-pendant-neckpiece-1772346642510-1000402553.png?token=B7BCHDQNOPC2TUITGBKSS3DJUPOVC"
+    ],
+    "category": "Neckpieces"
   }
 ]
