@@ -61,5 +61,16 @@
     "category": "Bangles",
     "isBestSeller": true,
     "isNewArrival": true
+  },
+  {
+    "id": "1772368413377",
+    "name": "Curved Rings",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368391284-product-1772368390722-1000402833.png"
+    ],
+    "category": "Rings"
   }
 ]
