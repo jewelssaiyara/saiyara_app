@@ -8,6 +8,8 @@
     "images": [
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368212513-circle-pendant-neckpiece-1772368211765-1000402553.png"
     ],
-    "category": "Neckpieces"
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
