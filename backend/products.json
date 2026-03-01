@@ -6,8 +6,10 @@
     "price": 323,
     "offerPrice": 444,
     "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772344138477-wwe-1772344138472-screenshot-from-2026-03-01-10-50-36.png?token=A2LX7IVXMN3EH3YRNTEA5BLJUPJYO"
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772344154238-wwe-1772344154221-screenshot-from-2026-03-01-10-48-24.png?token=A2LX7IQGC3MPMGNVYHXVATLJUPJZO"
     ],
-    "category": "Bangles"
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false
   }
 ]
