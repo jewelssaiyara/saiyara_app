@@ -8,6 +8,8 @@
     "images": [
       "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772345247621-afjhakjfhk-1772345246087-screenshot-2026-02-23-at-1.55.45-pm.png?token=B7BCHDVNKLKRP4LWUNOQPQDJUPL5Y"
     ],
-    "category": "Neckpieces"
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
