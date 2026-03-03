@@ -2,7 +2,7 @@
   "current": {
     "name": "RAMADAN",
     "description": "RAMDAN SUPER SALE IS LIVE. 15% OFF ON ORDER ABOVE 500",
-    "price": 1000,
+    "price": 20,
     "startDate": "2026-02-27",
     "endDate": "2026-03-25",
     "enabled": true
@@ -61,6 +61,15 @@
       "startDate": "2026-02-27",
       "endDate": "2026-03-25",
       "enabledAt": "2026-03-03T06:36:58.235Z"
+    },
+    {
+      "id": "1772524150198",
+      "name": "RAMADAN",
+      "description": "RAMDAN SUPER SALE IS LIVE. 15% OFF ON ORDER ABOVE 500",
+      "price": 20,
+      "startDate": "2026-02-27",
+      "endDate": "2026-03-25",
+      "enabledAt": "2026-03-03T07:49:10.198Z"
     }
   ]
 }
