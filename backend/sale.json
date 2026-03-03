@@ -1,11 +1,11 @@
 {
   "current": {
     "name": "RAMADAN",
-    "description": "SUPER SALE IS LIVE",
+    "description": "SUPER SALE IS LIVE. 15% OFF ON ORDER 500",
     "price": 1000,
     "startDate": "2026-02-27",
     "endDate": "2026-02-27",
-    "enabled": false
+    "enabled": true
   },
   "history": [
     {
