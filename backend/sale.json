@@ -4,7 +4,7 @@
     "description": "SUPER SALE IS LIVE. 15% OFF ON ORDER ABOVE 500",
     "price": 1000,
     "startDate": "2026-02-27",
-    "endDate": "2026-03-20",
+    "endDate": "2026-02-11",
     "enabled": true
   },
   "history": [
@@ -43,6 +43,15 @@
       "startDate": "2026-02-27",
       "endDate": "2026-03-20",
       "enabledAt": "2026-03-03T06:20:52.837Z"
+    },
+    {
+      "id": "1772519804887",
+      "name": "RAMADAN",
+      "description": "SUPER SALE IS LIVE. 15% OFF ON ORDER ABOVE 500",
+      "price": 1000,
+      "startDate": "2026-02-27",
+      "endDate": "2026-02-11",
+      "enabledAt": "2026-03-03T06:36:44.887Z"
     }
   ]
 }
