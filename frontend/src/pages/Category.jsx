@@ -118,24 +118,6 @@ const Category = () => {
         </Link>
       </div>
 
-      {isSaleActive && (
-        <div className="sale-banner">
-          <div>
-            <p className="sale-banner__eyebrow">Limited time offer</p>
-            <h2 className="sale-banner__title">
-              {currentSale?.name || "Sale"} is live
-            </h2>
-            <p className="sale-banner__subtitle">
-              Flat Rs. {Number(currentSale?.price || 0).toLocaleString("en-IN")}{" "}
-              off on all products
-            </p>
-          </div>
-          <div className="sale-banner__chip">
-            Save Rs. {Number(currentSale?.price || 0).toLocaleString("en-IN")}
-          </div>
-        </div>
-      )}
-
       <div className="filter-media">
         <select
           value={sortOption}

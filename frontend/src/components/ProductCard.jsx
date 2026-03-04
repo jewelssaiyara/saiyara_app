@@ -19,26 +19,18 @@ const ProductCard = ({ product, sale }) => {
   return (
     <Link to={`/products/${product.id}`} className="card">
       <div className="card__media">
-        <img
-          src={product.images?.[0]}
-          alt={product.name}
-          loading="lazy"
-        />
+        <img src={product.images?.[0]} alt={product.name} loading="lazy" />
       </div>
       <div className="card__body">
         <div>
           <p className="eyebrow">{product.category}</p>
           <h3 className="card__title">{product.name}</h3>
-          {product.material && (
-            <p className="helper">{product.material}</p>
-          )}
+          {product.material && <p className="helper">{product.material}</p>}
         </div>
         <div className="card__price">
           <span>{formatPrice(effectivePrice)}</span>
           {showSaleStrike ? (
-            <span className="price--strike">
-              {formatPrice(originalBase)}
-            </span>
+            <span className="price--strike">{formatPrice(originalBase)}</span>
           ) : (
             product.price &&
             product.price !== product.offerPrice && (

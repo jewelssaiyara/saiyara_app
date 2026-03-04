@@ -35,6 +35,9 @@ a {
   color: #0f172a;
   background: #efecec;
   border-bottom: 1px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  z-index: 40;
 }
 
 .top-banner {
@@ -142,7 +145,7 @@ a {
 .menu-drawer__header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .menu-drawer__title {
@@ -182,6 +185,20 @@ a {
 .menu-drawer__link:hover {
   background: #eef2ff;
   border-color: #c7d2fe;
+}
+
+.menu-drawer__divider {
+  height: 1px;
+  width: 100%;
+  background: #e2e8f0;
+}
+
+.menu-drawer__section-title {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #64748b;
 }
 
 .brand {
@@ -758,12 +775,52 @@ a {
   letter-spacing: 1px;
 }
 
+.contact-title {
+  text-transform: uppercase;
+}
+
 .home-about__text {
   margin: 0 auto;
   max-width: 820px;
   color: #475569;
   font-size: 15px;
   line-height: 1.7;
+}
+
+.contact-intro {
+  margin: 6px auto 10px;
+  max-width: 620px;
+  line-height: 1.6;
+}
+
+.contact-cards {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.contact-card {
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.contact-card__title {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.contact-card__text {
+  margin: 6px 0 0;
+  line-height: 1.6;
+}
+
+.contact-card__meta {
+  margin: 6px 0 0;
+  opacity: 0.85;
 }
 
 @media (max-width: 640px) {
@@ -1030,55 +1087,6 @@ a {
   padding: 16px;
   border-radius: 16px;
   background: #f1f5f9;
-}
-
-.sale-banner {
-  margin: 24px 0;
-  padding: 18px 22px;
-  border-radius: 18px;
-  background: #0f172a;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.sale-banner--highlight {
-  background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.25);
-}
-
-.sale-banner__eyebrow {
-  text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: 1px;
-  margin: 0 0 6px;
-  opacity: 0.7;
-}
-
-.sale-banner__title {
-  margin: 0 0 6px;
-}
-
-.sale-banner__quote {
-  margin: 0 0 6px;
-  opacity: 0.9;
-}
-
-.sale-banner__subtitle {
-  margin: 0;
-  opacity: 0.85;
-}
-
-.sale-banner__chip {
-  background: #fff;
-  color: #0f172a;
-  padding: 8px 14px;
-  border-radius: 999px;
-  font-weight: 700;
 }
 
 .loading {

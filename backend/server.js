@@ -465,7 +465,16 @@ const sanitizeMaterial = (material) =>
 
 app.post("/products", requireAdmin, async (req, res) => {
   try {
-    const { name, material, price, offerPrice, images, category } = req.body;
+    const {
+      name,
+      material,
+      price,
+      offerPrice,
+      images,
+      category,
+      isBestSeller,
+      isNewArrival,
+    } = req.body;
     const sanitizedImages = sanitizeImages(images);
     const sanitizedCategory = sanitizeCategory(category);
     const sanitizedMaterial = sanitizeMaterial(material);
@@ -492,6 +501,8 @@ app.post("/products", requireAdmin, async (req, res) => {
       offerPrice: Number(offerPrice),
       images: sanitizedImages,
       category: sanitizedCategory,
+      isBestSeller: Boolean(isBestSeller),
+      isNewArrival: Boolean(isNewArrival),
     };
 
     products.push(newProduct);
