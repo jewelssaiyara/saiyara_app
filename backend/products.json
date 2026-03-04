@@ -1,25 +1,103 @@
 [
   {
-    "id": "1772301713886",
-    "name": "fjakhkjfh",
-    "material": "33af",
-    "price": 1111,
-    "offerPrice": 11,
+    "id": "1772368216205",
+    "name": "Circle Pendant Neckpiece",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
     "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772301689512-product-1772301689474-screenshot-from-2026-02-27-14-43-19.png?token=A2LX7ISMHNVK5AOGDTHT5ZDJUMW3M"
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368212513-circle-pendant-neckpiece-1772368211765-1000402553.png"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": true
+  },
+  {
+    "id": "1772368254028",
+    "name": "Heart Pendant Neckpiece",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368251078-heart-pendant-neckpiece-1772368249847-1000402555.png"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": true
+  },
+  {
+    "id": "1772368293972",
+    "name": "Little Heart Pendant Neckpiece",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368290036-little-heart-pendant-neckpiece-1772368289288-1000402554.png"
     ],
     "category": "Neckpieces"
   },
   {
-    "id": "1772301747795",
-    "name": "gahlgka",
-    "material": "ag",
-    "price": 444,
-    "offerPrice": 22,
+    "id": "1772368336601",
+    "name": "Heart Bangle",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
     "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772301742595-gahlgka-1772301742559-screenshot-from-2026-02-27-13-02-44.png?token=A2LX7ITNZ76Q6YS2MNNJPFDJUMW6Y"
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368333013-heart-bangle-1772368331904-1000402837.png"
     ],
-    "category": "Bracelets",
+    "category": "Bangles",
+    "isBestSeller": true,
+    "isNewArrival": true
+  },
+  {
+    "id": "1772368369461",
+    "name": "Sleek bangles",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368366260-sleek-bangles-1772368364732-1000402835.png"
+    ],
+    "category": "Bangles",
+    "isBestSeller": true,
+    "isNewArrival": true
+  },
+  {
+    "id": "1772368413377",
+    "name": "Curved Rings",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368391284-product-1772368390722-1000402833.png"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": true
+  },
+  {
+    "id": "1772368444794",
+    "name": "Cross Shaped Ring",
+    "material": "Anti Tarnish",
+    "price": 339,
+    "offerPrice": 239,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368442305-cross-shaped-ring-1772368441919-1000402832.png"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": true
+  },
+  {
+    "id": "1772382091293",
+    "name": "Star pendant neckpieces",
+    "material": "anti tarnish",
+    "price": 800,
+    "offerPrice": 700,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772382086178-star-pendant-neckpieces-1772382086147-screenshot-from-2026-03-01-21-50-49.png"
+    ],
+    "category": "Neckpieces",
     "isBestSeller": true,
     "isNewArrival": true
   }
