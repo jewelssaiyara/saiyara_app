@@ -100,5 +100,18 @@
     "category": "Neckpieces",
     "isBestSeller": true,
     "isNewArrival": true
+  },
+  {
+    "id": "1772604999660",
+    "name": "New Bangle",
+    "material": "GOLD",
+    "price": 1000,
+    "offerPrice": 500,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772604989897-new-bangle-1772604989890-logo1.jpg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false
   }
 ]
