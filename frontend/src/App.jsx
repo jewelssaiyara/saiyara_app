@@ -6,6 +6,7 @@ import ProductDetails from "./pages/ProductDetails.jsx";
 import Admin from "./pages/Admin.jsx";
 import AdminLogin from "./pages/AdminLogin.jsx";
 import NewArrivals from "./pages/NewArrivals.jsx";
+import Contact from "./pages/Contact.jsx";
 import { isAuthed, subscribeToAuth } from "./utils/auth.js";
 import { CATEGORY_OPTIONS } from "./utils/catalog.js";
 import logo from "./assets/logo1.png";
@@ -36,7 +37,7 @@ const App = () => {
   const currentSale = saleConfig?.current || saleConfig || null;
   const isSaleActive = useMemo(() => {
     if (
-      !currentSale?.enabled ||
+      currentSale?.enabled !== true ||
       !currentSale?.startDate ||
       !currentSale?.endDate
     ) {
@@ -47,11 +48,12 @@ const App = () => {
     const now = new Date();
     return now >= start && now <= end;
   }, [currentSale]);
-  const bannerText =
-    currentSale?.bannerText ||
-    currentSale?.message ||
-    (currentSale?.name ? `${currentSale.name} is live now` : "") ||
-    "Ramdan sale is live now • 15% off on orders above 500";
+  const bannerText = isSaleActive
+    ? currentSale?.bannerText ||
+      currentSale?.message ||
+      currentSale?.description ||
+      (currentSale?.name ? `${currentSale.name} is live now` : "")
+    : "";
 
   return (
     <div className="page">
@@ -89,9 +91,8 @@ const App = () => {
           aria-label="Close menu"
           onClick={() => setIsMenuOpen(false)}
         />
-        <aside className="menu-drawer" aria-label="Categories">
+        <aside className="menu-drawer" aria-label="Sidebar">
           <div className="menu-drawer__header">
-            <h3 className="menu-drawer__title">Categories</h3>
             <button
               type="button"
               className="menu-drawer__close"
@@ -101,6 +102,31 @@ const App = () => {
               ×
             </button>
           </div>
+          <nav className="menu-drawer__list">
+            <Link
+              to="/"
+              className="menu-drawer__link"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Home
+            </Link>
+            <Link
+              to="/new-arrivals"
+              className="menu-drawer__link"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              New Arrivals
+            </Link>
+            <Link
+              to="/contact"
+              className="menu-drawer__link"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact Us
+            </Link>
+          </nav>
+          <div className="menu-drawer__divider" />
+          <p className="menu-drawer__section-title">Categories</p>
           <nav className="menu-drawer__list">
             {CATEGORY_OPTIONS.map((category) => (
               <Link
@@ -121,6 +147,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/category/:categoryId" element={<Category />} />
           <Route path="/new-arrivals" element={<NewArrivals />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route

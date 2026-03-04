@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import ImageCarousel from "../components/ImageCarousel.jsx";
 
 const API_URL = import.meta.env.VITE_API_URL;
-const WHATSAPP_BASE = "https://wa.me/917907607583";
+const WHATSAPP_BASE = "https://wa.me/919995206988 ";
 
 const formatPrice = (value) =>
   new Intl.NumberFormat("en-IN", {
@@ -93,11 +93,7 @@ const ProductDetails = () => {
         <div>
           <p className="eyebrow">Saiyara Jewellery</p>
           <h1 className="section-title">{product.name}</h1>
-          {isSaleActive && (
-            <p className="helper helper--error">
-              {currentSale?.name || "Sale"} is live
-            </p>
-          )}
+      
           <p className="section-subtitle">{product.category}</p>
         </div>
 

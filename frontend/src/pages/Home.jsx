@@ -21,21 +21,6 @@ const Home = () => {
   const bestSellerBannerUrl =
     "//rosywine.in/cdn/shop/files/k1_70be3bca-f7b5-444f-b0ad-6537f54de3a7.jpg?v=1731745926&width=1094";
 
-  const currentSale = saleConfig?.current || saleConfig || null;
-  const isSaleActive = useMemo(() => {
-    if (
-      !currentSale?.enabled ||
-      !currentSale?.price ||
-      !currentSale?.startDate ||
-      !currentSale?.endDate
-    ) {
-      return false;
-    }
-    const start = new Date(`${currentSale.startDate}T00:00:00`);
-    const end = new Date(`${currentSale.endDate}T23:59:59`);
-    const now = new Date();
-    return now >= start && now <= end;
-  }, [currentSale]);
 
   useEffect(() => {
     const loadSale = async () => {
@@ -151,26 +136,6 @@ const Home = () => {
           </div> */}
         </div>
       </section>
-      {isSaleActive && (
-        <section className="sale-banner sale-banner--highlight">
-          <div>
-            <p className="sale-banner__eyebrow">Limited time offer</p>
-            <h2 className="sale-banner__title">
-              {currentSale?.name || "Sale"} is live
-            </h2>
-            {currentSale?.description && (
-              <p className="sale-banner__quote">{currentSale.description}</p>
-            )}
-            <p className="sale-banner__subtitle">
-              Flat Rs. {Number(currentSale?.price || 0).toLocaleString("en-IN")}{" "}
-              off on all products
-            </p>
-          </div>
-          <div className="sale-banner__chip">
-            Save Rs. {Number(currentSale?.price || 0).toLocaleString("en-IN")}
-          </div>
-        </section>
-      )}
       <section className="home-collection-list">
         <div className="home-collection-list__header">
           <p className="home-collection-list__eyebrow">
