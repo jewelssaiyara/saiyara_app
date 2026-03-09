@@ -1,11 +1,11 @@
 {
   "current": {
     "name": "Eid offers",
-    "description": "Eid offer 200 off",
-    "price": 100,
+    "description": "Eid offer 20 off",
+    "price": 20,
     "startDate": "2026-03-01",
-    "endDate": "2026-03-01",
-    "enabled": false
+    "endDate": "2026-03-31",
+    "enabled": true
   },
   "history": [
     {
@@ -25,6 +25,15 @@
       "startDate": "2026-03-01",
       "endDate": "2026-03-01",
       "enabledAt": "2026-03-09T04:43:10.943Z"
+    },
+    {
+      "id": "1773031957294",
+      "name": "Eid offers",
+      "description": "Eid offer 20 off",
+      "price": 20,
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-31",
+      "enabledAt": "2026-03-09T04:52:37.294Z"
     }
   ]
 }
