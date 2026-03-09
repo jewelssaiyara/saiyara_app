@@ -100,5 +100,18 @@
     "category": "Neckpieces",
     "isBestSeller": true,
     "isNewArrival": true
+  },
+  {
+    "id": "1773031855346",
+    "name": "Cross shaped Ring",
+    "material": "Anti Tarnish",
+    "price": 600,
+    "offerPrice": 500,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1773031850631-cross-shaped-ring-1773031847548-1000402832.png"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
