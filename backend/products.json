@@ -100,18 +100,5 @@
     "category": "Neckpieces",
     "isBestSeller": true,
     "isNewArrival": true
-  },
-  {
-    "id": "1773031307900",
-    "name": "Bangle heart shaped",
-    "material": "Anti Tarnish",
-    "price": 300,
-    "offerPrice": 200,
-    "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1773031303012-bangle-heart-shaped-1773031297547-1000402834.png"
-    ],
-    "category": "Bangles",
-    "isBestSeller": true,
-    "isNewArrival": true
   }
 ]
