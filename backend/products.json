@@ -166,5 +166,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777798644436",
+    "name": "Love sign",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798625653-love-sign-1777798622397-copy_6cbeee30-78f9-44f4-9e22-7b22f0896847.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798629543-love-sign-1777798626959-copy_c881ece0-e841-44e5-876a-6c155ecea0ef.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798633567-love-sign-1777798631056-copy_a4e65a7a-6d6b-4bb7-9d6c-0115ac03831b.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
