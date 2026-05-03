@@ -213,5 +213,19 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777799087058",
+    "name": "Teal Royal tears",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 269,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777799070568-teal-royal-tears-1777799066938-copy_53e6ae6b-9048-430c-8e4b-22731e193832.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777799074449-teal-royal-tears-1777799071902-copy_2a84374a-698b-45a1-be72-c8574e4c0284.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
