@@ -513,5 +513,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777814769366",
+    "name": "Glimmer dots",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814748682-glimmer-dots-1777814745644-copy_2ace9c58-21a5-4b70-9cea-2797c7adb6b2.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814762622-glimmer-dots-1777814758911-copy_b581d2ec-c199-4616-8314-0ff29d31dc08.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
