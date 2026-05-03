@@ -100,18 +100,5 @@
     "category": "Neckpieces",
     "isBestSeller": true,
     "isNewArrival": true
-  },
-  {
-    "id": "1777790864587",
-    "name": "Gold stone rongs",
-    "material": "Anti Tarnish",
-    "price": 800,
-    "offerPrice": 600,
-    "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777790860317-gold-stone-rongs-1777790857846-1000432552.jpg"
-    ],
-    "category": "Rings",
-    "isBestSeller": true,
-    "isNewArrival": true
   }
 ]
