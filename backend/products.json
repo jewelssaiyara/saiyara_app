@@ -135,5 +135,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777798177906",
+    "name": "Velvet heart",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798050991-velvet-heart-1777798047216-copy_570767e9-bc65-4f0f-9586-e46d6beaf9b4.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798055153-velvet-heart-1777798052483-copy_c077aaa3-555a-4171-98f6-51a6d2902303.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798059185-velvet-heart-1777798056683-copy_4ff9034e-becf-41c7-bd52-818bd135f787.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
