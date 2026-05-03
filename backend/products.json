@@ -147,5 +147,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777796428906",
+    "name": "Lucky knot",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777796235626-lucky-knot-1777796232610-copy_b4f54333-37c0-49fa-a0fb-46da080960a2.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777796273783-lucky-knot-1777796270168-copy_cb5ae11a-e050-4695-b738-04a37338ca4d.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777796277928-lucky-knot-1777796275239-copy_578eb377-caf9-4633-b447-573b20bfcd06.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
