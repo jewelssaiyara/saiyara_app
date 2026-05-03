@@ -108,7 +108,10 @@
     "price": 369,
     "offerPrice": 229,
     "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792595293-flowy-ribbon-1777792588226-4acf1bcc-b746-43f1-a3db-655131ff0b1f.jpeg"
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792595293-flowy-ribbon-1777792588226-4acf1bcc-b746-43f1-a3db-655131ff0b1f.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792626766-flowy-ribbon-1777792621433-copy_d8429c98-026d-4259-ad34-76d757941dd4.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792635879-flowy-ribbon-1777792627928-copy_58e41388-13e3-431e-b009-db3df8c85ea7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792644464-flowy-ribbon-1777792637688-copy_a7ebabe9-88eb-48b2-94ef-ff0767ccf669.jpeg"
     ],
     "category": "Neckpieces",
     "isBestSeller": false,
