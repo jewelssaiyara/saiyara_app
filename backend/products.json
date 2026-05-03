@@ -197,5 +197,21 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777798931813",
+    "name": "Love letter",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798916151-love-letter-1777798913606-copy_2a61f016-6385-42c0-8290-bc7917be75ba.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798919307-love-letter-1777798917353-copy_be2a28ea-1c3b-44c4-9038-35162c232cdc.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798922606-love-letter-1777798920528-copy_241f4326-0766-4644-995a-b07b62ed17f5.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798925362-love-letter-1777798923675-copy_e3dc9207-b292-4f7c-941b-45f7a2fa89f1.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
