@@ -242,5 +242,21 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777800566787",
+    "name": "Memory book",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777800531231-memory-book-1777800528696-copy_e45ad5d0-5a15-4994-9434-381781e8260b.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777800534525-memory-book-1777800532743-copy_34d8d908-243d-40b2-8af5-c904310a8820.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777800538534-memory-book-1777800536079-copy_ba48745b-dccb-41ed-af72-acbe4dbef32d.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777800541535-memory-book-1777800539774-copy_21a854d0-21c0-4f49-85ac-a52cf97e4cde.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
