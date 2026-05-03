@@ -499,5 +499,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777814642311",
+    "name": "Golden vow",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814631924-golden-vow-1777814627265-copy_69015108-e696-43a7-8da9-f1e6a07cfca4.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814636068-golden-vow-1777814633249-copy_bd10de17-b2f2-434a-9c11-145894cb8596.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
