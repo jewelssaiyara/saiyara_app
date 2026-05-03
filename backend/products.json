@@ -317,5 +317,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777813509706",
+    "name": "Emerald halo",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813502005-emerald-halo-1777813499051-copy_809cb801-42cd-4986-91a9-2f9c66bdb08a.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813505522-emerald-halo-1777813503375-copy_ec2e159c-530f-49ef-8861-07b7e121807f.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
