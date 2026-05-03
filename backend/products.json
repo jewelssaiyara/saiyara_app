@@ -289,5 +289,19 @@
     "category": "Neckpieces",
     "isBestSeller": true,
     "isNewArrival": false
+  },
+  {
+    "id": "1777813199779",
+    "name": "Daisy chain",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813190481-daisy-chain-1777813188205-copy_0060b8f8-7e5f-4fee-a972-2a4064f01009.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813193771-daisy-chain-1777813191790-copy_d8334642-3c50-43db-9785-3907c43016d4.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
