@@ -75,5 +75,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777797166735",
+    "name": "Mermaid shell",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797100487-mermaid-shell-1777797097245-copy_969391d1-4b18-4b4b-9b20-33d1c1934bd0.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797103637-mermaid-shell-1777797101784-copy_f0d00427-f3cc-4551-9e9f-0eb8104e29ca.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797160809-mermaid-shell-1777797158161-img_5032.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
