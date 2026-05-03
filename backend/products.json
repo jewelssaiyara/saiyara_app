@@ -457,5 +457,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777814348790",
+    "name": "Comet wrap",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814328447-comet-wrap-1777814325393-copy_9e056a69-fca2-4c1f-ae5a-67b4ae9fe23e.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814342378-comet-wrap-1777814329601-copy_a1809fcc-7b8d-4cb9-914f-3532deb2e21a.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
