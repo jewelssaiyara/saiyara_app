@@ -415,5 +415,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777814037411",
+    "name": "Trio heart",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814030317-trio-heart-1777814027745-copy_d66551dc-fa32-451b-9e13-b2df0d393d8e.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814033450-trio-heart-1777814031433-copy_67d94696-473c-4496-9123-c15fcbbcb5f3.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
