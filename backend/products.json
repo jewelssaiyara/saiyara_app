@@ -228,5 +228,19 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777799324504",
+    "name": "Emerald Royal tears",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 269,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777799316293-emerald-royal-tears-1777799312870-copy_52e80172-2ea9-406a-a3ec-c3f7c005c96f.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777799320395-emerald-royal-tears-1777799317923-copy_7532cabb-3e71-4820-a117-e6e938755876.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
