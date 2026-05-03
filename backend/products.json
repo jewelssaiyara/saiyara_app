@@ -541,5 +541,20 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777820511567",
+    "name": "Green Blossom daisy",
+    "material": "Anti tarnish",
+    "price": 356,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777820477893-green-blossom-daisy-1777820472092-copy_1bd95d3a-a663-4fb5-960d-20cd18258358.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777820490695-green-blossom-daisy-1777820479628-copy_1246a897-040c-458b-9049-92aee8178dd2.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777820498403-green-blossom-daisy-1777820492317-copy_5c68770a-0981-48f9-89ea-6f72a16c4260.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
