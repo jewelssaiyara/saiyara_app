@@ -105,5 +105,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777797519167",
+    "name": "Sweetheart locket",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797466991-sweetheart-locket-1777797459102-copy_c231c778-6e15-42b9-ac60-dbc0dbe4f0d7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797475445-sweetheart-locket-1777797468384-copy_403151d9-3e8a-41f4-a25d-8fd6a50189dc.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797478807-sweetheart-locket-1777797476631-copy_3e182dad-c5df-484c-abaf-d9644cc6f3cc.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
