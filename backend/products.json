@@ -162,5 +162,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777796884481",
+    "name": "Promise knot",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777796771216-promise-knot-1777796767173-copy_16cdc744-dbca-4edd-8f63-e88fedb358f5.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777796775325-promise-knot-1777796772768-copy_0805c04f-4524-4d17-b421-151741be81aa.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777796779655-promise-knot-1777796776863-copy_fa115492-bc2e-439b-a911-d857a5d3372b.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
