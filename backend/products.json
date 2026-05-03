@@ -387,5 +387,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777813905598",
+    "name": "Twin leaf",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813881711-twin-leaf-1777813879497-copy_a2299468-69e3-4274-a311-59272e147d7c.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813899238-twin-leaf-1777813896764-copy_44db41c2-5b12-4a01-a360-f3eb87a5a4d3.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
