@@ -1,16 +1,5 @@
 [
   {
-    "id": "1772368293972",
-    "name": "Little Heart Pendant Neckpiece",
-    "material": "Anti Tarnish",
-    "price": 339,
-    "offerPrice": 239,
-    "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1772368290036-little-heart-pendant-neckpiece-1772368289288-1000402554.png"
-    ],
-    "category": "Neckpieces"
-  },
-  {
     "id": "1772368369461",
     "name": "Sleek bangles",
     "material": "Anti Tarnish",
