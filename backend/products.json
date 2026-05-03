@@ -345,5 +345,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777813698523",
+    "name": "Crescent",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813689121-crescent-1777813685663-copy_20a42b28-b39f-4fbc-ba34-508dc590a9e8.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813693395-crescent-1777813690429-copy_ca1cdb9a-615d-4005-895f-3072f973eab8.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
