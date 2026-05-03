@@ -120,5 +120,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777797698890",
+    "name": "Pearl tulip",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797682280-pearl-tulip-1777797678676-copy_6b525fb7-c6a6-43ea-85e8-67b06c225878.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797686195-pearl-tulip-1777797683735-copy_9af76584-436d-45d3-b8de-4c72aaa27ecd.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777797695290-pearl-tulip-1777797692495-img_5036.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
