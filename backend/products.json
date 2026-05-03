@@ -150,5 +150,21 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777798372795",
+    "name": "Butterfly kisses",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798356173-butterfly-kisses-1777798352607-copy_72a51dc1-b054-49a4-9d3c-ce2f9270e8d5.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798359286-butterfly-kisses-1777798357434-copy_aa170ccd-2001-47a1-982d-87775607b56d.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798363780-butterfly-kisses-1777798360870-copy_add73539-ed95-41b8-a15d-7109e3de4377.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798367657-butterfly-kisses-1777798364885-copy_866ff097-63ab-4ae9-b32a-ad1aba908e80.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
