@@ -258,5 +258,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777801007396",
+    "name": "Tie me pretty",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 269,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777800994916-tie-me-pretty-1777800992301-copy_b1a0b387-6c74-4df7-8799-6e5c02a187ef.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777800998684-tie-me-pretty-1777800996165-copy_eefb2bae-33c0-4d65-a2a3-2ef8fd2842b0.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777801002677-tie-me-pretty-1777800999851-copy_f44cb626-3c73-41a3-829e-a83eaeedb9d9.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
