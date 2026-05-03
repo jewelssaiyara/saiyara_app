@@ -131,5 +131,21 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777793649237",
+    "name": "Tied wings",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777793623191-tied-wings-1777793614900-copy_8c8eb0ad-dc61-4525-a07a-cb407281651b.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777793629926-tied-wings-1777793624504-copy_96a34613-f22e-4551-a0de-424ac3ec6c4f.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777793634605-tied-wings-1777793631068-copy_c7bdbe84-4e17-4225-9985-1dfba9e60588.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777793639507-tied-wings-1777793636107-copy_c485aabb-a7ac-41a8-bbf6-8c6866f06467.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
