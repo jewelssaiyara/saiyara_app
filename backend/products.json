@@ -100,5 +100,21 @@
     "category": "Neckpieces",
     "isBestSeller": true,
     "isNewArrival": true
+  },
+  {
+    "id": "1777792398652",
+    "name": "Flowy ribbon",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792324698-flowy-ribbon-1777792318555-copy_58e41388-13e3-431e-b009-db3df8c85ea7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792330583-flowy-ribbon-1777792326254-copy_a7ebabe9-88eb-48b2-94ef-ff0767ccf669.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792336260-flowy-ribbon-1777792331805-copy_d8429c98-026d-4259-ad34-76d757941dd4.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777792374364-flowy-ribbon-1777792360499-4acf1bcc-b746-43f1-a3db-655131ff0b1f.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": true
   }
 ]
