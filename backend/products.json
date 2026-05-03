@@ -221,7 +221,9 @@
     "price": 399,
     "offerPrice": 269,
     "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777799074449-teal-royal-tears-1777799071902-copy_2a84374a-698b-45a1-be72-c8574e4c0284.jpeg"
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777799074449-teal-royal-tears-1777799071902-copy_2a84374a-698b-45a1-be72-c8574e4c0284.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777799134568-teal-royal-tears-1777799131493-copy_f10f3d8a-9446-4b77-b079-7362d1e379d9.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777799138496-teal-royal-tears-1777799135879-copy_53e6ae6b-9048-430c-8e4b-22731e193832.jpeg"
     ],
     "category": "Neckpieces",
     "isBestSeller": false,
