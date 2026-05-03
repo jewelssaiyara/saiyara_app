@@ -273,5 +273,21 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777801246100",
+    "name": "Love of fragrance",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777801208790-love-of-fragrance-1777801205506-img_5044.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777801212323-love-of-fragrance-1777801210184-img_5045.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777801238407-love-of-fragrance-1777801234602-copy_f2407f81-79e3-475c-8533-b78d4636db9a.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777801242178-love-of-fragrance-1777801239674-copy_fcfe2b62-116b-4732-976c-4172d2bb5d72.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
