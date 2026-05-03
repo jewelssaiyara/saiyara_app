@@ -359,5 +359,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777813772027",
+    "name": "Eternal hearts",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813765364-eternal-hearts-1777813762648-copy_a83d46ad-f2e5-445d-9e4d-af32d8c28a28.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813767894-eternal-hearts-1777813766415-copy_1a758bd0-d1dd-41de-b3b5-a6f25ef1bed9.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
