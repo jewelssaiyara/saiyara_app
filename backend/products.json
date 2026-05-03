@@ -116,5 +116,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777793511613",
+    "name": "Midnight bow",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777793475420-midnight-bow-1777793471674-copy_f95d3e64-204e-4b5e-92ff-d27e860cf84d.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777793488771-midnight-bow-1777793484416-copy_424bfc78-0332-46dc-a0f2-95e17a372171.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777793503360-midnight-bow-1777793490046-copy_549658a6-25ef-4bac-98b5-477b3d5a7012.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
