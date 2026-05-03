@@ -485,5 +485,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777814580502",
+    "name": "Labyrinth",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814571912-labyrinth-1777814568387-copy_bf529eec-886d-424b-b74f-4a44440bc046.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814576726-labyrinth-1777814573088-copy_f0e5cd12-a573-4bb5-8211-7541e6489cf6.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
