@@ -181,5 +181,21 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777798791018",
+    "name": "Time keeper",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798759240-time-keeper-1777798755606-copy_8849f358-477e-4a4f-8ec1-5555b5052587.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798763017-time-keeper-1777798760480-copy_d3b4cd3a-00af-41a0-8c89-32e5bd4bb0a7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798767313-time-keeper-1777798764575-copy_42fd12f7-28c0-4fc4-adcc-dc68a6a72861.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777798770606-time-keeper-1777798768565-copy_792a6bda-7d75-4f54-b3b3-7a6232d09ac1.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
