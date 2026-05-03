@@ -443,5 +443,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777814234758",
+    "name": "Honeycomb",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814203854-honeycomb-1777814197002-copy_6255a337-72a7-4339-b8b3-2d3a3d42a875.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777814207831-honeycomb-1777814205327-copy_8d5ab11d-50b1-40e8-8cbd-7f6ecb8d4f20.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
