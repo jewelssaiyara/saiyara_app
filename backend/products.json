@@ -331,5 +331,19 @@
     "category": "Bangles",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777813590980",
+    "name": "Crown",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813581182-crown-1777813577680-copy_a3759da7-2cf1-4dc9-b07f-c9292744c214.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813585721-crown-1777813582512-copy_b51349b5-5649-4819-81f8-bccba8c7aeab.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
