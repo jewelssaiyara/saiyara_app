@@ -662,5 +662,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777869500971",
+    "name": "Golden droplets",
+    "material": "Anti tarnish",
+    "price": 356,
+    "offerPrice": 269,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869485645-golden-droplets-1777869479580-copy_a78ccd50-8621-4f58-bbb6-048ada4b9581.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869490014-golden-droplets-1777869486912-copy_12ee0c41-b9ff-44b8-b6a7-dfb010f99494.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869494166-golden-droplets-1777869491513-copy_f4a1c90e-2cf5-4e69-8845-87d48c5fd9aa.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
