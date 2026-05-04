@@ -557,5 +557,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777867281864",
+    "name": "Rosette disc",
+    "material": "Anti tarnish",
+    "price": 356,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867266942-rosette-disc-1777867262861-copy_eb9ca437-55da-4ac3-aa48-2c1b57993e75.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867272196-rosette-disc-1777867268469-copy_f87b0b8a-1c89-4b79-b5bf-2e86fe5998fc.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867277024-rosette-disc-1777867273809-copy_f6401047-e2d9-42ee-b924-1ec918fbd97f.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
