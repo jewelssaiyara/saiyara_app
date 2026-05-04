@@ -617,5 +617,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777868962235",
+    "name": "Icy heart",
+    "material": "Anti tarnish",
+    "price": 356,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777868946262-icy-heart-1777868943245-copy_1d8472cc-a3de-4e1d-a96f-af51dfe36cfa.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777868950466-icy-heart-1777868947616-copy_528d0867-10c7-4dbb-9b52-aee9ed3c1a3f.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777868955145-icy-heart-1777868951933-copy_d963947f-3817-4b53-8f71-985d8fb7ea6e.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
