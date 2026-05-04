@@ -632,5 +632,19 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777869130289",
+    "name": "Lucky charms",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869120068-lucky-charms-1777869114740-copy_c713e59b-f7b7-4209-af7f-5237315b9f62.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869125657-lucky-charms-1777869121727-copy_e03aeb7b-08e0-47ac-9c86-6e343b4b5e18.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
