@@ -305,20 +305,6 @@
     "isNewArrival": true
   },
   {
-    "id": "1777813353659",
-    "name": "Helix coil",
-    "material": "Anti tarnish",
-    "price": 350,
-    "offerPrice": 269,
-    "images": [
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777813346793-helix-coil-1777813344316-copy_cc966347-9a9c-4c74-80e0-e55741c8a9f7.jpeg",
-      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777815246815-helix-coil-1777815243766-copy_7842067b-488d-4ec4-9af8-646e9e402e36.jpeg"
-    ],
-    "category": "Bangles",
-    "isBestSeller": false,
-    "isNewArrival": true
-  },
-  {
     "id": "1777813509706",
     "name": "Emerald halo",
     "material": "Anti tarnish",
