@@ -572,5 +572,21 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777867377540",
+    "name": "Structural heart",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867356060-structural-heart-1777867351681-copy_278abcf4-a75b-4cc8-8d2b-13e0d388ef51.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867362780-structural-heart-1777867358604-copy_c231c778-6e15-42b9-ac60-dbc0dbe4f0d7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867367058-structural-heart-1777867364364-copy_3e182dad-c5df-484c-abaf-d9644cc6f3cc.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867371252-structural-heart-1777867368241-copy_403151d9-3e8a-41f4-a25d-8fd6a50189dc.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
