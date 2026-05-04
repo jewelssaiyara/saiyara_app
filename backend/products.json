@@ -572,5 +572,21 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777868004455",
+    "name": "Melted heart",
+    "material": "Anti tarnish",
+    "price": 366,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867979360-melted-heart-1777867975621-copy_0d2d6381-a701-4a21-a87c-bf05f7a37b6c.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867982855-melted-heart-1777867980783-copy_4ffe0f1c-b696-4ed7-aca1-17517504ff46.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867986678-melted-heart-1777867983984-copy_34a5fdd3-a7e7-4de7-8bff-a4822ef52a6f.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867990285-melted-heart-1777867987819-copy_acef026d-403e-431d-8e05-489d21a4c7f5.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
