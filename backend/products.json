@@ -602,5 +602,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777868531506",
+    "name": "Beaded rose",
+    "material": "Anti tarnish",
+    "price": 356,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777868502247-beaded-rose-1777868497184-copy_baf524f7-af23-4fd1-a988-0eb05cc4ead6.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777868506795-beaded-rose-1777868503642-copy_f495a2e7-d0e0-4ee8-aa21-74e11a911247.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777868510814-beaded-rose-1777868508128-copy_dc9921e1-17d9-46a7-98c3-4c1b33494219.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
