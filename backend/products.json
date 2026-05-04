@@ -677,5 +677,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777869572706",
+    "name": "Petal path",
+    "material": "Anti tarnish",
+    "price": 356,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869556588-petal-path-1777869551065-copy_cfe0c74d-3779-46b5-b0f6-ea5e81b8aabd.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869561821-petal-path-1777869558108-copy_3937c45f-886e-4487-9b21-2bf325ec5ac1.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869565577-petal-path-1777869562987-copy_8072f193-718a-4966-a88a-a7ab024ebf99.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
