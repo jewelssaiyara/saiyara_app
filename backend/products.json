@@ -542,5 +542,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777867188627",
+    "name": "Daisy Blossom black",
+    "material": "Anti tarnish",
+    "price": 356,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867174100-daisy-blossom-black-1777867170049-copy_a9480830-17ce-48bd-9dae-732ae495bbcd.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867178097-daisy-blossom-black-1777867175412-copy_1eebd41d-779e-4fcb-b41a-525549b29d85.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777867183307-daisy-blossom-black-1777867179578-copy_a8e56b5d-7ffd-4238-b466-7d73832c2a4d.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
