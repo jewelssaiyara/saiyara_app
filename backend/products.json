@@ -647,5 +647,20 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777869357459",
+    "name": "Love darling",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869340815-love-darling-1777869335011-copy_e5066d14-0cff-4ba5-9b30-0b600bd4fa59.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869345866-love-darling-1777869342105-copy_715e6ac1-02b7-4d29-a793-6c640c5cb627.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777869350394-love-darling-1777869347272-copy_207c293c-a872-4097-baa4-d82c317a7168.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
