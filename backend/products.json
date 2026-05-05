@@ -804,5 +804,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777981142676",
+    "name": "Floral charms",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777981129404-floral-charms-1777981126400-copy_fe3002be-8e2c-46de-aa78-94bbf6cf7a60.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777981135237-floral-charms-1777981131267-copy_e534d372-9fda-41ea-a701-0dc73e603317.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
