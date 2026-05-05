@@ -762,5 +762,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777980873878",
+    "name": "Double orbit",
+    "material": "Anti e",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980864515-double-orbit-1777980862033-copy_f504a5da-d391-4ff6-a8e4-25f1658dec8b.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980868898-double-orbit-1777980865957-copy_d3f0b27b-abcc-4676-8549-7cd7fa6689bb.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
