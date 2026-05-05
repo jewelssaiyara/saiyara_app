@@ -790,5 +790,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777981069624",
+    "name": "Petal charms",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777981060675-petal-charms-1777981057654-copy_408fed72-9311-4e7e-b912-6c63657b940a.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777981064117-petal-charms-1777981062262-copy_84f7eacf-a7a5-4835-868c-3961f5ac468d.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
