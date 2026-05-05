@@ -706,5 +706,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777980425060",
+    "name": "Trio orbit",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980413954-trio-orbit-1777980410285-copy_f1d25724-8b4f-4592-8e3f-6bddb1712845.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980417713-trio-orbit-1777980415428-copy_7ae4b6bb-e8f9-44a2-ac1f-2a989845cc90.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
