@@ -846,5 +846,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777981483011",
+    "name": "Cosmic charms",
+    "material": "Anti tarnish",
+    "price": 399,
+    "offerPrice": 269,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777981462875-cosmic-charms-1777981461113-copy_48565a6c-924a-46b4-af1a-5150f2e74f8c.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777981478466-cosmic-charms-1777981474799-copy_faaee11b-d49a-40d2-810d-f5f212bed185.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
