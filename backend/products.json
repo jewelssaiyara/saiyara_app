@@ -888,5 +888,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777982442877",
+    "name": "Vow chain",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777982432803-vow-chain-1777982428861-copy_1a16542a-c889-4e46-88b0-987195e1f1a1.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777982436930-vow-chain-1777982434737-copy_241435e9-1bd7-4d24-82a8-7e86b7bef962.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
