@@ -720,5 +720,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777980540217",
+    "name": "Trio Bloom",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980512091-trio-bloom-1777980509799-copy_295e3d17-a539-44d3-b5f7-6ee25004145d.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980537464-trio-bloom-1777980534571-copy_703393cb-b8df-4f0c-ba7a-9dbdff702a03.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": false
   }
 ]
