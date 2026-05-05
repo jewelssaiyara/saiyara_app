@@ -748,5 +748,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777980757829",
+    "name": "Infinity charm",
+    "material": "Anti tarnish",
+    "price": 320,
+    "offerPrice": 269,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980748494-infinity-charm-1777980745563-copy_550bafeb-ed42-408c-93f2-624330df45a7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980752303-infinity-charm-1777980749932-copy_7b1b7bd9-3403-4ad2-86c2-9191a94623ed.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
