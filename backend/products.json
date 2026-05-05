@@ -776,5 +776,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777980988546",
+    "name": "Noor charms",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980962460-noor-charms-1777980960920-copy_94e10677-b04c-4a68-bcbc-216e58537708.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980983766-noor-charms-1777980980447-copy_8ecc798d-a3f8-407b-ad6b-75e2835fee5f.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
