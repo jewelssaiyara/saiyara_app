@@ -860,5 +860,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777982332676",
+    "name": "Aura chain",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777982314902-aura-chain-1777982312055-copy_a9516603-883f-4c52-8c5a-16c24682a4da.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777982328535-aura-chain-1777982325745-copy_9297deb0-eded-4d30-b4c9-83c10b58a4dd.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
