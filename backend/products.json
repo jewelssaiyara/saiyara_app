@@ -832,5 +832,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777981374541",
+    "name": "Fate charms",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777981352588-fate-charms-1777981349323-copy_a11c01b5-ea87-4ae8-b60d-bcc7168a3621.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777981369484-fate-charms-1777981366146-copy_0de69a59-cef1-450d-b497-10268da94fb8.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
