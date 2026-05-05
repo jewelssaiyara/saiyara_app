@@ -734,5 +734,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": false
+  },
+  {
+    "id": "1777980678519",
+    "name": "Wild rose",
+    "material": "Anti tarnish",
+    "price": 320,
+    "offerPrice": 269,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980656063-wild-rose-1777980653369-copy_51c03f5e-c9fd-4624-a4c5-db227b9f2c06.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980674000-wild-rose-1777980671281-copy_216d4c49-f09e-4e1d-ad20-99c2d3a10bf0.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
