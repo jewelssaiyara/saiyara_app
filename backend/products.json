@@ -692,5 +692,19 @@
     "category": "Neckpieces",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777980325317",
+    "name": "Trigon star",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980316758-trigon-star-1777980313353-copy_8c30278e-1e0c-4bec-a8dd-6897280dac86.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777980320232-trigon-star-1777980318310-copy_6382d6b4-e71b-4b07-9065-fa5f25982f74.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
