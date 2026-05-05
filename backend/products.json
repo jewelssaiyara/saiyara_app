@@ -874,5 +874,19 @@
     "category": "Bracelets",
     "isBestSeller": false,
     "isNewArrival": true
+  },
+  {
+    "id": "1777982392920",
+    "name": "Soul chain",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777982375018-soul-chain-1777982372236-copy_b11cece0-74bf-49af-a65a-925b7a09372f.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1777982388303-soul-chain-1777982385159-copy_ba1deb6b-c476-4b21-a5c2-0e06feb9e3fd.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true
   }
 ]
