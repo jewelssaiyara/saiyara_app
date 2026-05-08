@@ -1,6 +1,4 @@
-const WHATSAPP_BASE = "https://wa.me/919995206988";
-const INSTAGRAM_URL =
-  "https://www.instagram.com/_sai__yara_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
+import { INSTAGRAM_URL, WHATSAPP_URL as WHATSAPP_BASE } from "../utils/social.js";
 
 const Contact = () => (
   <section className="home-about">

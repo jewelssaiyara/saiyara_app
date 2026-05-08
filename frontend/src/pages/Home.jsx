@@ -21,7 +21,6 @@ const Home = () => {
   const bestSellerBannerUrl =
     "//rosywine.in/cdn/shop/files/k1_70be3bca-f7b5-444f-b0ad-6537f54de3a7.jpg?v=1731745926&width=1094";
 
-
   useEffect(() => {
     const loadSale = async () => {
       try {
@@ -120,20 +119,6 @@ const Home = () => {
             Discover handcrafted collections designed to celebrate tradition,
             love, and effortless elegance.
           </p>
-          {/* <div className="home-hero__actions">
-            <Link
-              to={`/category/${CATEGORY_OPTIONS[0].id}`}
-              className="button button--primary"
-            >
-              Explore collection
-            </Link>
-            <Link
-              to={`/category/${CATEGORY_OPTIONS[3].id}`}
-              className="button button--outline"
-            >
-              View new arrivals
-            </Link>
-          </div> */}
         </div>
       </section>
       <section className="home-collection-list">
@@ -159,7 +144,7 @@ const Home = () => {
                   />
                 )}
                 <div className="home-collection-list__label">
-                  SHOP {category.label}
+                  {category.label}
                 </div>
               </div>
             </Link>

@@ -10,6 +10,8 @@ import Contact from "./pages/Contact.jsx";
 import { isAuthed, subscribeToAuth } from "./utils/auth.js";
 import { CATEGORY_OPTIONS } from "./utils/catalog.js";
 import logo from "./assets/logo1.png";
+import SiteFooter from "./components/SiteFooter.jsx";
+import FloatingInstagramButton from "./components/FloatingInstagramButton.jsx";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
@@ -157,11 +159,8 @@ const App = () => {
         </Routes>
       </main>
 
-      <footer className="site-footer">
-        <div className="container site-footer__inner">
-          Handcrafted elegance for every celebration.
-        </div>
-      </footer>
+      <SiteFooter />
+      <FloatingInstagramButton />
     </div>
   );
 };

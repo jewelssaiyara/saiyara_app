@@ -8,12 +8,15 @@ const emptyForm = {
   id: null,
   name: "",
   material: "",
+  description: "",
   price: "",
   offerPrice: "",
   category: "Bangles",
   images: [],
   isBestSeller: false,
   isNewArrival: false,
+  soldOut: false,
+  stock: "1",
 };
 
 const extractDriveId = (url) => {
@@ -228,12 +231,18 @@ const Admin = () => {
       id: product.id,
       name: product.name,
       material: product.material || "",
+      description: product.description || "",
       price: product.price,
       offerPrice: product.offerPrice,
       category: product.category || "Bangles",
       images: product.images?.length ? product.images : [],
       isBestSeller: Boolean(product.isBestSeller),
       isNewArrival: Boolean(product.isNewArrival),
+      soldOut: Boolean(product.soldOut),
+      stock:
+        product.stock !== undefined && product.stock !== null
+          ? String(product.stock)
+          : "1",
     });
     formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
@@ -282,12 +291,18 @@ const Admin = () => {
     const payload = {
       name: form.name.trim(),
       material: form.material.trim(),
+      description: form.description?.trim() || "",
       price: Number(form.price),
       offerPrice: Number(form.offerPrice),
       category: form.category,
       images: form.images.map((img) => normalizeImageUrl(img)).filter(Boolean),
       isBestSeller: Boolean(form.isBestSeller),
       isNewArrival: Boolean(form.isNewArrival),
+      soldOut: Boolean(form.soldOut),
+      stock: (() => {
+        const raw = parseInt(String(form.stock).trim(), 10);
+        return Number.isFinite(raw) && raw >= 0 ? raw : 1;
+      })(),
     };
 
     const actionLabel = isEditing ? "update" : "add";
@@ -523,6 +538,19 @@ const Admin = () => {
             />
           </label>
 
+          <label className="form__label">
+            <span className="form__label-text">Description</span>
+            <textarea
+              value={form.description}
+              onChange={(event) =>
+                updateField("description", event.target.value)
+              }
+              className="form__input form__input--full form__textarea"
+              placeholder="Optional details about the product"
+              rows={4}
+            />
+          </label>
+
           <div className="form__row">
             <label className="form__label">
               <span className="form__label-text">
@@ -583,6 +611,41 @@ const Admin = () => {
                 }
               />
               Show this product in best sellers
+            </span>
+          </label>
+
+          <label className="form__label">
+            <span className="form__label-text">Stock count</span>
+            <input
+              type="number"
+              min={0}
+              step={1}
+              inputMode="numeric"
+              value={form.stock}
+              onChange={(event) => updateField("stock", event.target.value)}
+              disabled={form.soldOut}
+              className="form__input form__input--full"
+              aria-disabled={form.soldOut}
+            />
+            <span className="helper">
+              Units on hand (defaults to 1). Editing disabled while marked sold
+              out.
+            </span>
+          </label>
+
+          <label className="form__label">
+            <span>Sold out</span>
+            <span
+              style={{ display: "flex", alignItems: "center", gap: "10px" }}
+            >
+              <input
+                type="checkbox"
+                checked={form.soldOut}
+                onChange={(event) =>
+                  updateField("soldOut", event.target.checked)
+                }
+              />
+              Mark as unavailable (buy button disabled on site)
             </span>
           </label>
 
