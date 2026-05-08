@@ -300,10 +300,24 @@ const writeSale = async (sale) => {
   await fs.writeFile(salePath, JSON.stringify(sale, null, 2));
 };
 
+const sanitizeStock = (value, fallback = 1) => {
+  const n = Number(value);
+  if (!Number.isFinite(n) || n < 0) {
+    return fallback;
+  }
+  return Math.min(Math.floor(n), 999999);
+};
+
+/** Ensures every API response includes numeric stock (default 1 when missing in stored JSON). */
+const normalizeProductResponse = (product) => ({
+  ...product,
+  stock: sanitizeStock(product?.stock, 1),
+});
+
 app.get("/products", async (_req, res) => {
   try {
     const products = await readProducts();
-    res.json(products);
+    res.json(products.map(normalizeProductResponse));
   } catch (error) {
     res.status(500).json({ message: "Failed to read products." });
   }
@@ -318,7 +332,7 @@ app.get("/products/:id", async (req, res) => {
       return res.status(404).json({ message: "Product not found." });
     }
 
-    res.json(product);
+    res.json(normalizeProductResponse(product));
   } catch (error) {
     res.status(500).json({ message: "Failed to read product." });
   }
@@ -463,6 +477,9 @@ const sanitizeCategory = (category) => {
 const sanitizeMaterial = (material) =>
   typeof material === "string" ? material.trim() : "";
 
+const sanitizeDescription = (description) =>
+  typeof description === "string" ? description.trim() : "";
+
 app.post("/products", requireAdmin, async (req, res) => {
   try {
     const {
@@ -474,6 +491,9 @@ app.post("/products", requireAdmin, async (req, res) => {
       category,
       isBestSeller,
       isNewArrival,
+      description,
+      soldOut,
+      stock,
     } = req.body;
     const sanitizedImages = sanitizeImages(images);
     const sanitizedCategory = sanitizeCategory(category);
@@ -503,6 +523,9 @@ app.post("/products", requireAdmin, async (req, res) => {
       category: sanitizedCategory,
       isBestSeller: Boolean(isBestSeller),
       isNewArrival: Boolean(isNewArrival),
+      description: sanitizeDescription(description),
+      soldOut: Boolean(soldOut),
+      stock: sanitizeStock(stock, 1),
     };
 
     products.push(newProduct);
@@ -531,6 +554,21 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
     const updatedImages = sanitizeImages(req.body.images);
     const updatedCategory = sanitizeCategory(req.body.category);
     const updatedMaterial = sanitizeMaterial(req.body.material);
+    const updatedDescription =
+      req.body.description !== undefined
+        ? sanitizeDescription(req.body.description)
+        : current.description ?? "";
+
+    const updatedSoldOut =
+      req.body.soldOut !== undefined
+        ? Boolean(req.body.soldOut)
+        : Boolean(current.soldOut);
+
+    const updatedStock =
+      req.body.stock !== undefined
+        ? sanitizeStock(req.body.stock, sanitizeStock(current.stock, 1))
+        : sanitizeStock(current.stock, 1);
+
     const updated = {
       ...current,
       ...req.body,
@@ -542,6 +580,9 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
         typeof req.body.category === "string"
           ? updatedCategory || current.category || ""
           : current.category || "",
+      description: updatedDescription,
+      soldOut: updatedSoldOut,
+      stock: updatedStock,
     };
 
     products[index] = updated;
