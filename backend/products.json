@@ -902,6 +902,9 @@
     ],
     "category": "Bracelets",
     "isBestSeller": false,
-    "isNewArrival": true
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 3
   }
 ]
