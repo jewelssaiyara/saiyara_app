@@ -314,7 +314,10 @@
     ],
     "category": "Bangles",
     "isBestSeller": true,
-    "isNewArrival": true
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": true,
+    "stock": 1
   },
   {
     "id": "1777813509706",
