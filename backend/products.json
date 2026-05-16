@@ -752,7 +752,10 @@
     ],
     "category": "Bracelets",
     "isBestSeller": false,
-    "isNewArrival": false
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": true,
+    "stock": 1
   },
   {
     "id": "1777980678519",
