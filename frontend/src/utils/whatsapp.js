@@ -22,3 +22,29 @@ export function openProductInterestWhatsAppOnIos(event, productPageUrl) {
   const text = `Hi! I'm interested in this product: ${productPageUrl}`;
   window.location.href = `whatsapp://send?phone=${WHATSAPP_PHONE}&text=${encodeURIComponent(text)}`;
 }
+
+function buildCartCheckoutMessage(items) {
+  const lines = items.map((item, index) => {
+    const qty =
+      item.quantity > 1 ? ` (Qty: ${item.quantity})` : "";
+    return `${index + 1}. ${item.name}${qty}\n${item.pageUrl}`;
+  });
+  return `Hi! I'd like to checkout the following items:\n\n${lines.join("\n\n")}`;
+}
+
+export function buildCartCheckoutWhatsAppUrl(items) {
+  const text = buildCartCheckoutMessage(items);
+  return `${WHATSAPP_BASE}?text=${encodeURIComponent(text)}`;
+}
+
+export function openCartCheckoutWhatsAppOnIos(event, items) {
+  if (!isIosDevice()) {
+    return;
+  }
+
+  event.preventDefault();
+  event.stopPropagation();
+
+  const text = buildCartCheckoutMessage(items);
+  window.location.href = `whatsapp://send?phone=${WHATSAPP_PHONE}&text=${encodeURIComponent(text)}`;
+}

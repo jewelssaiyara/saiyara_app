@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom";
+import { useCart } from "../context/CartContext.jsx";
+import {
+  canAddProductToCart,
+  getProductStockLimit,
+} from "../utils/productStock.js";
 import {
   buildProductInterestWhatsAppUrl,
   openProductInterestWhatsAppOnIos,
@@ -12,6 +17,7 @@ const formatPrice = (value) =>
   }).format(value);
 
 const ProductCard = ({ product, sale }) => {
+  const { addToCart, getCartQuantity } = useCart();
   const isSaleActive = Boolean(sale?.isActive && sale?.price);
   const originalBase = Number(product.price || product.offerPrice || 0);
   const discount = isSaleActive ? Number(sale.price) : 0;
@@ -23,6 +29,19 @@ const ProductCard = ({ product, sale }) => {
   const productPageUrl = `${window.location.origin}/products/${product.id}`;
   const whatsappUrl = buildProductInterestWhatsAppUrl(productPageUrl);
   const isSoldOut = Boolean(product.soldOut);
+  const stockLimit = getProductStockLimit(product);
+  const inCartQty = getCartQuantity(product.id);
+  const canAddToCart =
+    canAddProductToCart(product) && inCartQty < stockLimit;
+
+  const handleAddToCart = (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    addToCart(product, {
+      effectivePrice,
+      pageUrl: productPageUrl,
+    });
+  };
 
   return (
     <article className="card">
@@ -33,7 +52,6 @@ const ProductCard = ({ product, sale }) => {
         <div className="card__body">
           <div>
             <p className="eyebrow">{product.name}</p>
-            {/* <h3 className="card__title">{product.name}</h3> */}
           </div>
           <div className="card__price">
             <span>{formatPrice(effectivePrice)}</span>
@@ -61,24 +79,37 @@ const ProductCard = ({ product, sale }) => {
             Sold out
           </button>
         ) : (
-          <a
-            href={whatsappUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="button card__buy"
-            style={{
-              backgroundColor: "#0f172a",
-              border: "1px solid #0f172a",
-              color: "#fff",
-              textDecoration: "none",
-            }}
-            onClick={(event) => {
-              event.stopPropagation();
-              openProductInterestWhatsAppOnIos(event, productPageUrl);
-            }}
-          >
-            Buy now
-          </a>
+          <>
+            <button
+              type="button"
+              className="button button--outline card__add-cart"
+              disabled={!canAddToCart}
+              aria-disabled={!canAddToCart}
+              onClick={handleAddToCart}
+            >
+              {inCartQty >= stockLimit && stockLimit > 0
+                ? "Max in cart"
+                : "Add to cart"}
+            </button>
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="button card__buy"
+              style={{
+                backgroundColor: "#0f172a",
+                border: "1px solid #0f172a",
+                color: "#fff",
+                textDecoration: "none",
+              }}
+              onClick={(event) => {
+                event.stopPropagation();
+                openProductInterestWhatsAppOnIos(event, productPageUrl);
+              }}
+            >
+              Buy now
+            </a>
+          </>
         )}
       </div>
     </article>
