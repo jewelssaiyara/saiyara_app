@@ -23,7 +23,14 @@ const Contact = () => (
           </a>{" "}
           (WhatsApp only).
         </p>
-        <p className="contact-card__meta">Timings: 11am to 4pm</p>
+        <p className="contact-card__text">
+          For calls:{" "}
+          <a href="tel:+918592914677">
+            <strong>+91 8592914677</strong>
+          </a>
+          .
+        </p>
+        <p className="contact-card__meta">Timings: 9am to 9pm</p>
       </div>
 
       <div className="contact-card">

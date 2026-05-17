@@ -1,18 +1,23 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { CATEGORY_OPTIONS } from "../utils/catalog.js";
+import dashboard1 from "../assets/dashboard1.jpg";
+import dashboard2 from "../assets/dashboard2.png";
+import dashboard3 from "../assets/dashboard3.png";
 
 const API_URL = import.meta.env.VITE_API_URL;
+
+const heroImages = [
+  "https://rosywine.in/cdn/shop/files/4001A62B-927F-4D56-A932-FB6B027C4D54.jpg?v=1767092529&width=1800",
+  dashboard1,
+  dashboard2,
+  dashboard3,
+];
 
 const Home = () => {
   const [saleConfig, setSaleConfig] = useState(null);
   const [products, setProducts] = useState([]);
   const reviewsTrackRef = useRef(null);
-  const heroImages = [
-    "https://rosywine.in/cdn/shop/files/4001A62B-927F-4D56-A932-FB6B027C4D54.jpg?v=1767092529&width=1800",
-    "https://rosywine.in/cdn/shop/files/k3_9a14cc84-c933-4aa7-88dd-1ba95d793609.avif?v=1766234373&width=1800",
-    "https://rosywine.in/cdn/shop/files/k5_21581f7f-9b0a-4d43-8a83-a22b76c90a64.avif?v=1758490252&width=1800",
-  ];
   const [heroIndex, setHeroIndex] = useState(0);
   const bestSellers = useMemo(
     () => products.filter((product) => Boolean(product.isBestSeller)),
