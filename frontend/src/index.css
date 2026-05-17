@@ -82,7 +82,6 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: 40px;
 }
 
 .menu-button {
@@ -1301,6 +1300,10 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 28px;
   align-items: start;
+}
+
+.product-detail__carousel-anchor {
+  scroll-margin-top: 80px;
 }
 
 .product-details-related {

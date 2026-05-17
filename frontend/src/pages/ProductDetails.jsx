@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import ImageCarousel from "../components/ImageCarousel.jsx";
 import { useCart } from "../context/CartContext.jsx";
@@ -29,7 +29,10 @@ const ProductDetails = () => {
   const [saleConfig, setSaleConfig] = useState(null);
   const [catalogProducts, setCatalogProducts] = useState([]);
   const [cartFeedback, setCartFeedback] = useState("");
+  const carouselRef = useRef(null);
+
   useEffect(() => {
+    setIsLoading(true);
     const loadProduct = async () => {
       try {
         const response = await fetch(`${API_URL}/products/${id}`);
@@ -44,6 +47,13 @@ const ProductDetails = () => {
 
     loadProduct();
   }, [id]);
+
+  useEffect(() => {
+    if (isLoading || !product?.id || String(product.id) !== String(id)) {
+      return;
+    }
+    carouselRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [id, isLoading, product?.id]);
 
   useEffect(() => {
     const loadSale = async () => {
@@ -161,7 +171,9 @@ const ProductDetails = () => {
   return (
     <>
       <section className="layout-split">
-        <ImageCarousel images={product.images} />
+        <div ref={carouselRef} className="product-detail__carousel-anchor">
+          <ImageCarousel images={product.images} key={product.id} />
+        </div>
 
         <div style={{ display: "grid", gap: "24px" }}>
         <div>
