@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import ProductCard from "../components/ProductCard.jsx";
+import SortFilterSelect from "../components/SortFilterSelect.jsx";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
@@ -98,22 +99,14 @@ const NewArrivals = () => {
             Discover the newest styles added to the Saiyara collection.
           </p>
         </div>
-        <Link to="/" className="button button--outline">
-          Back to home
-        </Link>
       </div>
 
       <div className="filter-media">
-        <select
+        <SortFilterSelect
+          id="new-arrivals-sort-filter"
           value={sortOption}
           onChange={(event) => setSortOption(event.target.value)}
-          className="form__input"
-          aria-label="Sort products"
-        >
-          <option value="newest">Recently added</option>
-          <option value="price-low">Price: low to high</option>
-          <option value="price-high">Price: high to low</option>
-        </select>
+        />
         <input
           type="search"
           value={searchTerm}

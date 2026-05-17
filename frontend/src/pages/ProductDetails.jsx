@@ -1,6 +1,11 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import ImageCarousel from "../components/ImageCarousel.jsx";
+import { useCart } from "../context/CartContext.jsx";
+import {
+  canAddProductToCart,
+  getProductStockLimit,
+} from "../utils/productStock.js";
 import {
   buildProductInterestWhatsAppUrl,
   openProductInterestWhatsAppOnIos,
@@ -17,12 +22,13 @@ const formatPrice = (value) =>
 
 const ProductDetails = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
+  const { addToCart, getCartQuantity } = useCart();
   const [product, setProduct] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [saleConfig, setSaleConfig] = useState(null);
   const [catalogProducts, setCatalogProducts] = useState([]);
-  const relatedTrackRef = useRef(null);
-
+  const [cartFeedback, setCartFeedback] = useState("");
   useEffect(() => {
     const loadProduct = async () => {
       try {
@@ -135,6 +141,22 @@ const ProductDetails = () => {
     ? Math.max(0, originalBase - discount)
     : Number(product.offerPrice || 0);
   const showSaleStrike = isSaleActive && discount > 0 && originalBase > 0;
+  const stockLimit = getProductStockLimit(product);
+  const inCartQty = getCartQuantity(product.id);
+  const canAddToCart = canAddProductToCart(product) && inCartQty < stockLimit;
+
+  const handleAddToCart = () => {
+    const result = addToCart(product, {
+      effectivePrice,
+      pageUrl: productPageUrl,
+    });
+    if (result.ok) {
+      setCartFeedback("Added to cart");
+      window.setTimeout(() => setCartFeedback(""), 2000);
+      return;
+    }
+    setCartFeedback(result.message || "Could not add to cart");
+  };
 
   return (
     <>
@@ -206,25 +228,55 @@ const ProductDetails = () => {
             Sold out
           </button>
         ) : (
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noreferrer"
-            className="button card__buy"
-            style={{
-              backgroundColor: "#0f172a",
-              border: "1px solid #0f172a",
-              color: "#fff",
-              textDecoration: "none",
-              justifyContent: "center",
-            }}
-            onClick={(event) => {
-              event.stopPropagation();
-              openProductInterestWhatsAppOnIos(event, productPageUrl);
-            }}
-          >
-            Buy Now
-          </a>
+          <div className="product-detail__actions">
+            <button
+              type="button"
+              className="button button--outline product-detail__add-cart"
+              disabled={!canAddToCart}
+              aria-disabled={!canAddToCart}
+              onClick={handleAddToCart}
+            >
+              {inCartQty >= stockLimit && stockLimit > 0
+                ? "Max in cart"
+                : "Add to cart"}
+            </button>
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noreferrer"
+              className="button card__buy product-detail__buy"
+              style={{
+                backgroundColor: "#0f172a",
+                border: "1px solid #0f172a",
+                color: "#fff",
+                textDecoration: "none",
+                justifyContent: "center",
+              }}
+              onClick={(event) => {
+                event.stopPropagation();
+                openProductInterestWhatsAppOnIos(event, productPageUrl);
+              }}
+            >
+              Buy Now
+            </a>
+            {cartFeedback ? (
+              <p className="product-detail__cart-feedback" role="status">
+                {cartFeedback}
+                {cartFeedback === "Added to cart" ? (
+                  <>
+                    {" "}
+                    <button
+                      type="button"
+                      className="product-detail__cart-link"
+                      onClick={() => navigate("/cart")}
+                    >
+                      View cart
+                    </button>
+                  </>
+                ) : null}
+              </p>
+            ) : null}
+          </div>
         )}
         </div>
       </section>
@@ -237,78 +289,33 @@ const ProductDetails = () => {
               <h2 className="home-section__title">You may also like</h2>
             </div>
           </div>
-          <div className="home-bestseller__carousel">
-            <button
-              type="button"
-              className="home-bestseller__nav home-bestseller__nav--prev"
-              aria-label="Previous products"
-              onClick={() => {
-                const track = relatedTrackRef.current;
-                if (!track) {
-                  return;
-                }
-                const firstCard = track.querySelector(".home-bestseller__card");
-                if (!firstCard) {
-                  return;
-                }
-                const gap = 16;
-                const cardWidth = firstCard.getBoundingClientRect().width;
-                track.scrollBy({ left: -(cardWidth + gap), behavior: "smooth" });
-              }}
-            >
-              ←
-            </button>
-            <div className="home-bestseller__viewport">
-              <div
-                ref={relatedTrackRef}
-                className="home-bestseller__track"
-                aria-label="You may also like"
-              >
-                {relatedProducts.map((item) => (
-                  <article key={item.id} className="home-bestseller__card">
-                    <div className="home-bestseller__media">
-                      <img
-                        src={item.images?.[0]}
-                        alt={item.name}
-                        loading="lazy"
-                      />
-                    </div>
-                    <div className="home-bestseller__body">
-                      <p className="home-bestseller__title">{item.name}</p>
-                      <p className="home-bestseller__text">
-                        {item.material || "Signature Saiyara finish"}
-                      </p>
-                      <Link
-                        to={`/products/${item.id}`}
-                        className="button home-bestseller__button"
-                      >
-                        View
-                      </Link>
-                    </div>
-                  </article>
-                ))}
-              </div>
-            </div>
-            <button
-              type="button"
-              className="home-bestseller__nav home-bestseller__nav--next"
-              aria-label="Next products"
-              onClick={() => {
-                const track = relatedTrackRef.current;
-                if (!track) {
-                  return;
-                }
-                const firstCard = track.querySelector(".home-bestseller__card");
-                if (!firstCard) {
-                  return;
-                }
-                const gap = 16;
-                const cardWidth = firstCard.getBoundingClientRect().width;
-                track.scrollBy({ left: cardWidth + gap, behavior: "smooth" });
-              }}
-            >
-              →
-            </button>
+          <div
+            className="home-bestseller__grid"
+            aria-label="You may also like"
+          >
+            {relatedProducts.map((item) => (
+              <article key={item.id} className="home-bestseller__card">
+                <div className="home-bestseller__media">
+                  <img
+                    src={item.images?.[0]}
+                    alt={item.name}
+                    loading="lazy"
+                  />
+                </div>
+                <div className="home-bestseller__body">
+                  <p className="home-bestseller__title">{item.name}</p>
+                  <p className="home-bestseller__text">
+                    {item.material || "Signature Saiyara finish"}
+                  </p>
+                  <Link
+                    to={`/products/${item.id}`}
+                    className="button home-bestseller__button"
+                  >
+                    View
+                  </Link>
+                </div>
+              </article>
+            ))}
           </div>
         </section>
       )}

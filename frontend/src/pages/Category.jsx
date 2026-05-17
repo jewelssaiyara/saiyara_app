@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ProductCard from "../components/ProductCard.jsx";
+import SortFilterSelect from "../components/SortFilterSelect.jsx";
 import {
   getCategoryLabel,
   getCategoryValue,
@@ -113,22 +114,14 @@ const Category = () => {
             Handpicked jewellery crafted for every moment.
           </p>
         </div>
-        <Link to="/" className="button button--outline">
-          Back to home
-        </Link>
       </div>
 
       <div className="filter-media">
-        <select
+        <SortFilterSelect
+          id="category-sort-filter"
           value={sortOption}
           onChange={(event) => setSortOption(event.target.value)}
-          className="form__input"
-          aria-label="Sort products"
-        >
-          <option value="newest">Recently added</option>
-          <option value="price-low">Price: low to high</option>
-          <option value="price-high">Price: high to low</option>
-        </select>
+        />
         <input
           type="search"
           value={searchTerm}

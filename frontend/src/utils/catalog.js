@@ -3,7 +3,7 @@ import braceletImage from "../assets/bracelet.png";
 import cuffBanglesImage from "../assets/cuffbangles.png";
 import earringImage from "../assets/earring.png";
 import neckpieceImage from "../assets/neckpiece.png";
-import ringsImage from "../assets/pairing.png";
+import ringsImage from "../assets/rings.png";
 
 export const CATEGORY_OPTIONS = [
   {
