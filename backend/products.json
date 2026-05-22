@@ -1300,5 +1300,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779434931514",
+    "name": "Eternal ember",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779434923667-eternal-ember-1779434920697-copy_2ef2af82-f8ca-4345-92e5-6b7fb24151a7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779434926841-eternal-ember-1779434924843-copy_27b12977-c164-43dd-a892-1ddcc2c2c043.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
