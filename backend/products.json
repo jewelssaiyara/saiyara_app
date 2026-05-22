@@ -1708,5 +1708,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779441615509",
+    "name": "Golden twinkle",
+    "material": "Anti",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779441596224-golden-twinkle-1779441577930-copy_4f3cc9da-4386-4467-a237-1ce2bc50df60.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779441605074-golden-twinkle-1779441597445-copy_d17de0be-cba6-4f48-8d90-4a665f8cfd79.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
