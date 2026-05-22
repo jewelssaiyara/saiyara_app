@@ -1079,5 +1079,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779433037096",
+    "name": "Modern lattice",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433022436-modern-lattice-1779433019924-copy_9d861627-8175-4b78-8da8-f3670e1d6f05.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433033461-modern-lattice-1779433031322-copy_04ba201b-9d08-46c6-8129-14338d0be1ed.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
