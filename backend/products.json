@@ -1674,5 +1674,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437849828",
+    "name": "Silken loop luminous",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 169,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437831533-silken-loop-luminous-1779437827940-copy_62d02699-cb4c-4081-99a3-68ac4730ff0e.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437836261-silken-loop-luminous-1779437832959-copy_67a61ed6-2b2d-438e-9a36-c00ff3ecd182.jpeg"
+    ],
+    "category": "Cuff Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
