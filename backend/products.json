@@ -1385,5 +1385,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779435343679",
+    "name": "Petal pave statement",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435329863-petal-pave-statement-1779435327548-copy_61eb4b39-d720-4e4c-9273-aa9a58085a13.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435341485-petal-pave-statement-1779435339146-copy_65b9771a-e0e7-470a-a01d-ed0110cebcd0.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
