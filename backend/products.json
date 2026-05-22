@@ -1521,5 +1521,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437090072",
+    "name": "Infinity knot bangle",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 169,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437067333-infinity-knot-bangle-1779437063214-copy_4609da65-0db0-4938-8aee-519c2f39aec5.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437072954-infinity-knot-bangle-1779437068598-copy_43ff3e20-f18f-4bfb-a304-6e415d0f310b.jpeg"
+    ],
+    "category": "Cuff Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
