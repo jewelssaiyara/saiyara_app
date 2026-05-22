@@ -1351,5 +1351,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779435140347",
+    "name": "Coil serpent",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435132051-coil-serpent-1779435128809-copy_08df69f0-5b85-4245-9653-dec7748eefc1.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435135423-coil-serpent-1779435133246-copy_6853ae98-5908-447f-a6a4-e7eec1dff0c5.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
