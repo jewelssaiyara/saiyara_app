@@ -1606,5 +1606,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437544563",
+    "name": "Celestial edge bangle",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437534490-celestial-edge-bangle-1779437530896-copy_2b40e43c-cf96-4f83-b4e3-d38c7ea6e6be.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437539749-celestial-edge-bangle-1779437535998-copy_df37919b-5fb5-4fc5-bddd-288c3850abc5.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
