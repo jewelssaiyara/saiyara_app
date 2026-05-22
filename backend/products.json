@@ -1880,5 +1880,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442699073",
+    "name": "Leaf sparkle",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442690702-leaf-sparkle-1779442688277-copy_9bc7a7ae-496b-4836-bf02-f11adbea5d8f.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442694317-leaf-sparkle-1779442692219-copy_5eec71ae-2eb6-4b8a-b723-ce83afacc027.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
