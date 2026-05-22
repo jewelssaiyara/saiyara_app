@@ -1283,5 +1283,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779434847625",
+    "name": "Rose bud ring",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779434824170-rose-bud-ring-1779434821944-copy_7ffe69e8-142b-4c9c-9317-2da81fee52f7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779434843450-rose-bud-ring-1779434841042-copy_2e56b32e-9ab8-4caa-80d4-603d92d268f2.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
