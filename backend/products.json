@@ -1028,5 +1028,21 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779432669144",
+    "name": "Bold cuff ring",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779432663220-bold-cuff-ring-1779432660502-copy_93dd78a9-ca18-4919-888c-9e79f30d2c20.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
