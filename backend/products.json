@@ -1863,5 +1863,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442624364",
+    "name": "Knot of kismet",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442609875-knot-of-kismet-1779442607777-copy_e4ae9148-5094-4360-984a-d9ca739fc3e7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442617175-knot-of-kismet-1779442615164-copy_f9b90bd2-24b9-4cb2-9c54-9fd8cf731474.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
