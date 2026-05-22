@@ -1181,5 +1181,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779433861192",
+    "name": "Grooved gold",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433853818-grooved-gold-1779433851220-copy_77dfb921-6fe0-4a53-b4ab-8ee351d40f9a.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433856709-grooved-gold-1779433855110-copy_a0d4c885-1aeb-4ab0-8450-b166e792809f.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
