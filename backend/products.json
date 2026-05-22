@@ -1795,5 +1795,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442360398",
+    "name": "Feather charm",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442353226-feather-charm-1779442350864-copy_faea05a2-2448-4787-9483-660c45ab57a5.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442356412-feather-charm-1779442354500-copy_bb95b05d-dd40-46c8-92fb-0e95c4c810c6.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
