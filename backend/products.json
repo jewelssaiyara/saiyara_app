@@ -1657,5 +1657,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437767397",
+    "name": "Lucky petal",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437757687-lucky-petal-1779437753897-copy_106ffc79-4da2-40f8-8861-564832cb7d80.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437762783-lucky-petal-1779437759297-copy_9f33b23e-ca9b-4d8d-b473-831954ee97ce.jpeg"
+    ],
+    "category": "Cuff Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
