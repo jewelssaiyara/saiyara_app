@@ -1829,5 +1829,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442475402",
+    "name": "Eternal orb statement ring",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442466338-eternal-orb-statement-ring-1779442463529-copy_a6df73f9-6fb0-4725-99c0-1d208ab4d169.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442472183-eternal-orb-statement-ring-1779442467841-copy_2601833a-9052-493d-95ac-1c1b4856791d.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
