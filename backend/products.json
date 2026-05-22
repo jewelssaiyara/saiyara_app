@@ -1317,5 +1317,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779435010926",
+    "name": "Botanical blaze ring",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435003049-botanical-blaze-ring-1779435000367-copy_e19721f2-15cf-4093-b9c2-bcf10cf81315.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435006394-botanical-blaze-ring-1779435004358-copy_929cece2-d94d-4575-94e8-27e712369e9c.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
