@@ -1572,5 +1572,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437396577",
+    "name": "Shimmering bead cuff",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437388118-shimmering-bead-cuff-1779437384562-copy_3e89fa23-1348-4347-85ae-c4e26b9c1f11.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437392252-shimmering-bead-cuff-1779437389339-copy_32d1e532-57c5-46ef-8c95-842f78a1da42.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
