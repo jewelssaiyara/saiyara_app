@@ -948,5 +948,21 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779432179053",
+    "name": "Pulse charm",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 179,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779432170831-pulse-charm-1779432167614-copy_0f5d96ec-973a-4e92-a5aa-0568cc95217a.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
