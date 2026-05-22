@@ -1691,5 +1691,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779441431524",
+    "name": "Golden stirring",
+    "material": "Anti tarnish",
+    "price": 269,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779441421846-golden-stirring-1779441418890-copy_21913746-f593-4ec5-9647-539e4377e745.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779441426564-golden-stirring-1779441423397-copy_5ceca804-da0d-452a-8652-6ecffd86e388.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
