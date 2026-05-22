@@ -1555,5 +1555,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437284517",
+    "name": "Gilded gemline cross bangle",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437276186-gilded-gemline-cross-bangle-1779437272945-copy_92fe6745-936a-49b9-b545-9fd571e7ee08.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437279881-gilded-gemline-cross-bangle-1779437277754-copy_fb3f1c63-2bec-4963-9d8c-c106c38aafb6.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
