@@ -1436,5 +1436,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779435619162",
+    "name": "Aurora clover",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435583853-aurora-clover-1779435581009-copy_b896a9c3-125f-4ac7-92b9-4fb81b3b03d8.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435616183-aurora-clover-1779435613543-copy_fee521cd-6adf-48fa-bf48-cb4482d177a0.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
