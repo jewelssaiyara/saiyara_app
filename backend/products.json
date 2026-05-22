@@ -1198,5 +1198,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779433914562",
+    "name": "Modern gold thin band",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433906637-modern-gold-thin-band-1779433904212-copy_238e3b61-02eb-45b6-b7ca-dfdf7d6b10b7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433909854-modern-gold-thin-band-1779433907990-copy_5bd611ab-fccc-4a38-a455-8fb38d29dbde.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
