@@ -1812,5 +1812,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442408206",
+    "name": "Vine embrace",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442401649-vine-embrace-1779442399425-copy_4b787473-e728-4e2e-8cd6-eb3f3f46c5d6.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442405567-vine-embrace-1779442402991-copy_b2e43f81-7281-4077-b6b2-b05b2054dcc0.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
