@@ -1232,5 +1232,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779434112468",
+    "name": "Eternal wave",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779434103251-eternal-wave-1779434100624-copy_a5eb0f49-ba52-4e2a-b20b-ce15b6476055.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779434107459-eternal-wave-1779434104474-copy_5ae42e30-6172-447e-b1b8-1e7c21980ff3.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
