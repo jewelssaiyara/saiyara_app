@@ -1589,5 +1589,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437460147",
+    "name": "Bamboo bliss cuff",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437443980-bamboo-bliss-cuff-1779437439853-copy_5a2d44aa-7957-413e-9ec0-05a6b66718b1.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437447829-bamboo-bliss-cuff-1779437445299-copy_c27d2036-cbf7-4f1d-9293-86241dcc8f13.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
