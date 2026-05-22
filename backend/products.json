@@ -1012,5 +1012,21 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779432363523",
+    "name": "Knotty grace",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 179,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779432360498-knotty-grace-1779432357412-copy_5f4888eb-f900-4823-947b-ca4d858b512f.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
