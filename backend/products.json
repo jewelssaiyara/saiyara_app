@@ -1725,5 +1725,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779441731950",
+    "name": "Coil diamond",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779441721642-coil-diamond-1779441718867-copy_8f69ef52-d109-4fef-8bdc-428e1ae4ab84.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779441729534-coil-diamond-1779441727534-copy_4aadf8e6-64fa-416e-9f98-bf8ffbf62d35.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
