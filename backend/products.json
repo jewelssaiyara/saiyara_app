@@ -1948,5 +1948,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442957045",
+    "name": "Intersecting charm",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442949013-intersecting-charm-1779442947040-copy_4056139b-1ebf-4552-a5e2-678bf8f24841.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442953167-intersecting-charm-1779442950339-copy_0e0a2dc7-a71d-457d-85f8-9c35eecbe043.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
