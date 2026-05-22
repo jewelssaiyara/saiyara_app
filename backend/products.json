@@ -1981,5 +1981,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779443210620",
+    "name": "Chain statement",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779443203407-chain-statement-1779443200449-copy_8f9f7c15-8645-4f82-be02-59f5ad4c0590.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779443206677-chain-statement-1779443204794-copy_7f0f56f1-c19c-4b7d-af23-9d16110e377a.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
