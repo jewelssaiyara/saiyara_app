@@ -1742,5 +1742,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779441914303",
+    "name": "Infinity shield ring",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779441906513-infinity-shield-ring-1779441904102-copy_46159621-1921-4f13-9f7f-c2cc56f8ddc7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779441909613-infinity-shield-ring-1779441907927-copy_1268aff5-6dc0-4bcb-b48a-1873c0c2469c.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
