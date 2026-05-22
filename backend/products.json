@@ -1759,5 +1759,24 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442102974",
+    "name": "Triple twist couture",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442091997-triple-twist-couture-1779442089468-copy_2add366f-9bc0-4611-affb-353a8688ef3e.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442094250-triple-twist-couture-1779442093224-copy_ec3135e7-e125-4734-8d75-e6fb8cddda50.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442096826-triple-twist-couture-1779442095410-img_7459.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442099839-triple-twist-couture-1779442097813-copy_3b48e6bc-b574-4685-a7be-6023e2dbbd39.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
