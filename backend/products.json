@@ -1778,5 +1778,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442193209",
+    "name": "Zigzag line",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442156401-zigzag-line-1779442154555-copy_8aecc0bd-707e-43a2-b6eb-529cf2af3132.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442189551-zigzag-line-1779442187617-copy_9485bc36-08db-4340-8156-e8f4449c85d1.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
