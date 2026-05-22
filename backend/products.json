@@ -964,5 +964,21 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779432240184",
+    "name": "Petal charm",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 179,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779432236418-petal-charm-1779432233746-copy_cf0f5ec3-1678-45d4-9733-dffbd5d63ab5.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
