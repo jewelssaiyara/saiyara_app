@@ -1504,5 +1504,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779436293661",
+    "name": "Divine cutout cuff",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779436285373-divine-cutout-cuff-1779436283039-copy_8a5954fb-dd19-4507-91fa-f531740bf8d7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779436288734-divine-cutout-cuff-1779436286463-copy_34545577-9721-4c78-86ac-eb46a3fbf358.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
