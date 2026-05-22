@@ -1538,5 +1538,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437168565",
+    "name": "Pearl edge rose cuff",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437158971-pearl-edge-rose-cuff-1779437155716-copy_ee1920da-ca13-47a2-9a90-4830163f3817.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437163799-pearl-edge-rose-cuff-1779437160147-copy_f2b5be34-4e36-4f39-95d7-bb7181b1e83e.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
