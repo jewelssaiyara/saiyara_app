@@ -1623,5 +1623,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779437634146",
+    "name": "Sunlit armlet",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437623743-sunlit-armlet-1779437619556-copy_2580c103-3d9c-47c9-b469-48b43ffc9129.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779437629580-sunlit-armlet-1779437625051-copy_49d17997-f403-4a0d-a173-93837d00951c.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
