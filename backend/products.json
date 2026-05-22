@@ -1096,5 +1096,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779433325896",
+    "name": "Golden starburst",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433315567-golden-starburst-1779433313236-copy_7cfd6a3b-d3c5-4562-a6dd-c061d6d40cd2.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433318792-golden-starburst-1779433317264-copy_5738ef8f-632f-4e35-ba48-5dfd5d0692d7.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
