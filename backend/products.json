@@ -996,5 +996,21 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779432323882",
+    "name": "Soul tie charm",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 179,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779432320434-soul-tie-charm-1779432317229-copy_5f4888eb-f900-4823-947b-ca4d858b512f.jpeg"
+    ],
+    "category": "Bracelets",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
