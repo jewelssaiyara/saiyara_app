@@ -1164,5 +1164,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779433795673",
+    "name": "Gold floral accent",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 179,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433783995-gold-floral-accent-1779433781960-copy_f8d2c5dd-2fa0-4ee4-a4df-a9034c1a42d9.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433787343-gold-floral-accent-1779433785304-copy_68fba908-ae6e-41bd-afd9-852f43280abc.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
