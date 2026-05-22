@@ -1045,5 +1045,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779432765373",
+    "name": "Modern cocktail",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779432749847-modern-cocktail-1779432747119-copy_416e3659-fd94-4d6a-8261-394cead7cbd3.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779432752696-modern-cocktail-1779432751017-copy_980d01fa-98be-4a90-a398-e67b4c62d017.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
