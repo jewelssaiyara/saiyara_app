@@ -1931,5 +1931,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779442904434",
+    "name": "Ribbon lux",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442889883-ribbon-lux-1779442887669-copy_b6105168-aaf6-4655-b54b-293563b46cc6.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779442893999-ribbon-lux-1779442891664-copy_3c7a4325-b2d5-477c-9cc1-84a81ca6c015.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
