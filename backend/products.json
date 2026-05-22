@@ -1487,5 +1487,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779436246053",
+    "name": "Fern fliar bangle",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779436237644-fern-fliar-bangle-1779436234815-copy_b161f269-19d7-4bc4-9a77-879f095800ab.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779436241201-fern-fliar-bangle-1779436238949-copy_97a3d87f-48f2-4f57-99ff-e36775f9aa07.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
