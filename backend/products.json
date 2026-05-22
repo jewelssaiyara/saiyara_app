@@ -1470,5 +1470,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779436182184",
+    "name": "Vein infinity cuff",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779436171976-vein-infinity-cuff-1779436169273-copy_07b57483-6ef6-40a1-9ce9-30d71c8fcf0c.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779436175144-vein-infinity-cuff-1779436173146-copy_b0008207-261d-48c3-b9f5-23802b02279e.jpeg"
+    ],
+    "category": "Bangles",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
