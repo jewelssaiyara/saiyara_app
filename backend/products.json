@@ -1130,5 +1130,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779433531340",
+    "name": "Majestic gold leaf",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433523772-majestic-gold-leaf-1779433521129-copy_6888af8f-f7c2-4aac-861e-4f1d1face679.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433526717-majestic-gold-leaf-1779433525058-copy_336d1592-4a54-4af6-b1f5-dfdb45f7f9ee.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
