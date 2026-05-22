@@ -1215,5 +1215,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779434002967",
+    "name": "Petal aura",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433990080-petal-aura-1779433987360-copy_67ddafac-9bd0-4a93-93d9-e4b5120ea832.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433993220-petal-aura-1779433991427-copy_a4495d19-6933-4968-9bac-3ed12f9bd4eb.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
