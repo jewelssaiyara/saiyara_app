@@ -1453,5 +1453,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779435919757",
+    "name": "Triple layer chevron",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435900621-triple-layer-chevron-1779435898354-copy_da64ea5f-4ed1-4a16-8f2f-8fa0c17c0557.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435916393-triple-layer-chevron-1779435914123-copy_adc8dacd-bb2b-4b15-bcbc-5be11491d8c6.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
