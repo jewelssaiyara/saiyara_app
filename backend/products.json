@@ -1419,5 +1419,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779435502095",
+    "name": "Gemstone trio ring",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435493946-gemstone-trio-ring-1779435491374-copy_d75b8883-da46-44d4-b96d-77ee9874ae4c.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779435497869-gemstone-trio-ring-1779435495185-copy_caa2ffd4-e636-4365-8b9c-fa7775b9b0cf.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
