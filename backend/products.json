@@ -1147,5 +1147,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779433700876",
+    "name": "Ginkgo duo petals",
+    "material": "Anti tarnish",
+    "price": 199,
+    "offerPrice": 149,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433678558-ginkgo-duo-petals-1779433676379-copy_5bfab070-67a6-44d7-bda9-71a75060c240.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779433695908-ginkgo-duo-petals-1779433693588-copy_d93d301e-8788-407c-a7e5-0e7bd3015b13.jpeg"
+    ],
+    "category": "Rings",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
