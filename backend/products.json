@@ -1998,5 +1998,23 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779530201795",
+    "name": "Ruby Cherry sparkle",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779530187419-ruby-cherry-sparkle-1779530184799-copy_286cd15b-cdf9-4065-bffd-74584988f297.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779530191176-ruby-cherry-sparkle-1779530188727-copy_2e93272d-4540-4fb4-89d3-644878b4c292.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779530195006-ruby-cherry-sparkle-1779530192570-copy_b80a60db-c008-4f9e-b00a-350c42e379d1.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
