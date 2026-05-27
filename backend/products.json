@@ -2034,5 +2034,21 @@
     "description": "All the products loved by our customers will be beautifully packed and provided in a premium gift box by Saiyara Jewels.✨🎁\nAlternative elegant version:\n“We carefully curate and pack all your favorite products into a beautiful premium gift box from Saiyara Jewels.” 💎",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779885613682",
+    "name": "JEWELLERY BOX",
+    "material": "Anti tarnish",
+    "price": 1499,
+    "offerPrice": 999,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779885549704-jewellery-box-1779885548314-img_5497-compressed.jpeg"
+    ],
+    "category": "Customised box",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "“All the products loved by our customers will be beautifully packed and provided in a premium gift box by Saiyara Jewels.” ✨🎁\nAlternative elegant version:\n“We carefully curate and pack all your favorite products into a beautiful premium gift box from Saiyara Jewels.” 💎",
+    "soldOut": false,
+    "stock": 1
   }
 ]
