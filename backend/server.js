@@ -471,6 +471,12 @@ const sanitizeCategory = (category) => {
   if (normalized.includes("neck")) {
     return "Neckpieces";
   }
+  if (normalized.includes("pair")) {
+    return "Pair set";
+  }
+  if (normalized.includes("box")) {
+    return "Customised box";
+  }
   return "";
 };
 
@@ -557,7 +563,7 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
     const updatedDescription =
       req.body.description !== undefined
         ? sanitizeDescription(req.body.description)
-        : current.description ?? "";
+        : (current.description ?? "");
 
     const updatedSoldOut =
       req.body.soldOut !== undefined
