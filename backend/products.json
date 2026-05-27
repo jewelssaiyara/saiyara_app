@@ -2016,5 +2016,23 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1779884913243",
+    "name": "CUSTOMISED JEWELLERY BOX",
+    "material": "Mixed",
+    "price": 7999,
+    "offerPrice": 4999,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779881274858-customised-jewellery-box-1779881271703-7cf72cd1-382e-49ed-93c7-068cf9642e8c-compressed.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779881277817-customised-jewellery-box-1779881276591-1e9c0581-97d3-4942-8099-a2ca2a7cbd96-compressed.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1779881281211-customised-jewellery-box-1779881279362-64295ab6-ad67-49f1-833e-e410806954e3-compressed.jpeg"
+    ],
+    "category": "Customised box",
+    "isBestSeller": true,
+    "isNewArrival": true,
+    "description": "Customer requirement products",
+    "soldOut": false,
+    "stock": 1
   }
 ]
