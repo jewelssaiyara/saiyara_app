@@ -184,26 +184,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-bestseller__carousel">
-          <button
-            type="button"
-            className="home-bestseller__nav home-bestseller__nav--prev"
-            aria-label="Previous reviews"
-            onClick={() => {
-              const track = reviewsTrackRef.current;
-              if (!track) {
-                return;
-              }
-              const firstCard = track.querySelector(".home-bestseller__card");
-              if (!firstCard) {
-                return;
-              }
-              const gap = 16;
-              const cardWidth = firstCard.getBoundingClientRect().width;
-              track.scrollBy({ left: -(cardWidth + gap), behavior: "smooth" });
-            }}
-          >
-            ←
-          </button>
+
           <div className="home-bestseller__viewport">
             <div
               ref={reviewsTrackRef}
@@ -238,26 +219,6 @@ const Home = () => {
               )}
             </div>
           </div>
-          <button
-            type="button"
-            className="home-bestseller__nav home-bestseller__nav--next"
-            aria-label="Next reviews"
-            onClick={() => {
-              const track = reviewsTrackRef.current;
-              if (!track) {
-                return;
-              }
-              const firstCard = track.querySelector(".home-bestseller__card");
-              if (!firstCard) {
-                return;
-              }
-              const gap = 16;
-              const cardWidth = firstCard.getBoundingClientRect().width;
-              track.scrollBy({ left: cardWidth + gap, behavior: "smooth" });
-            }}
-          >
-            →
-          </button>
         </div>
       </section>
       <section className="home-assurance">

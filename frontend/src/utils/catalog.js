@@ -4,6 +4,8 @@ import cuffBanglesImage from "../assets/cuffbangles.png";
 import earringImage from "../assets/earring.png";
 import neckpieceImage from "../assets/neckpiece.png";
 import ringsImage from "../assets/rings.png";
+import boxImage from "../assets/box.png";
+import pairSetImage from "../assets/pairset.png";
 
 export const CATEGORY_OPTIONS = [
   {
@@ -42,6 +44,18 @@ export const CATEGORY_OPTIONS = [
     value: "Neckpieces",
     image: neckpieceImage,
   },
+  {
+    id: "pair-set",
+    label: "Pair set",
+    value: "Pair set",
+    image: pairSetImage,
+  },
+  {
+    id: "customised-box",
+    label: "Customised box",
+    value: "Customised box",
+    image: boxImage,
+  },
 ];
 
 const CATEGORY_VALUES = CATEGORY_OPTIONS.reduce((acc, option) => {
@@ -69,5 +83,7 @@ export const normalizeCategory = (value) => {
   if (trimmed.includes("bracelet")) return "Bracelets";
   if (trimmed.includes("earring")) return "Earrings";
   if (trimmed.includes("neck")) return "Neckpieces";
+  if (trimmed.includes("pair")) return "Pair set";
+  if (trimmed.includes("box")) return "Customised box";
   return "";
 };
