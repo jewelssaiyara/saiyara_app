@@ -63,8 +63,8 @@ export const getCategoryLabel = (categoryId) =>
 export const normalizeCategory = (value) => {
   const trimmed = value?.trim().toLowerCase();
   if (!trimmed) return "";
-  if (trimmed.includes("bangle")) return "Bangles";
   if (trimmed.includes("cuff")) return "Cuff Bangles";
+  if (trimmed.includes("bangle")) return "Bangles";
   if (trimmed.includes("ring")) return "Rings";
   if (trimmed.includes("bracelet")) return "Bracelets";
   if (trimmed.includes("earring")) return "Earrings";
