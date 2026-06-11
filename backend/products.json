@@ -1718,7 +1718,7 @@
     "isBestSeller": true,
     "isNewArrival": true,
     "description": "",
-    "soldOut": false,
+    "soldOut": true,
     "stock": 1
   },
   {
