@@ -2099,5 +2099,23 @@
     "description": "",
     "soldOut": false,
     "stock": 5
+  },
+  {
+    "id": "1781799736955",
+    "name": "Rainbow gemstone charm",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799722233-rainbow-gemstone-charm-1781799719200-copy_86684d56-4970-4c01-966f-88f01e967ed0.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799727033-rainbow-gemstone-charm-1781799724221-copy_41a600f4-948a-4ba2-9f5f-203ac7d0a82e.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799731107-rainbow-gemstone-charm-1781799728403-copy_506e9e4b-d890-4b19-ac41-50e99f3ccce3.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": true,
+    "stock": 1
   }
 ]
