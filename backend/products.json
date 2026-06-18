@@ -2080,5 +2080,24 @@
     "description": "",
     "soldOut": false,
     "stock": 5
+  },
+  {
+    "id": "1781799627453",
+    "name": "Tulip imprint black pendant",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799609960-tulip-imprint-black-pendant-1781799607054-copy_f9dd9e62-add7-4dea-a028-3c9e256d4c2d.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799614014-tulip-imprint-black-pendant-1781799611393-copy_a2930e57-c986-43d6-88a6-d0258c8bca87.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799618696-tulip-imprint-black-pendant-1781799615972-copy_dfe61a38-0cb0-4f73-82e5-ef14c6322ef2.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799623348-tulip-imprint-black-pendant-1781799620559-copy_e77350a6-5355-4dbf-ac61-8c78c8b44952.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 5
   }
 ]
