@@ -2154,5 +2154,24 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1781800151587",
+    "name": "Gold cherry blossom",
+    "material": "Anti tarnish",
+    "price": 229,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800132989-gold-cherry-blossom-1781800130428-copy_a890d9af-4c46-4716-a84f-21aa17a2a383.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800137098-gold-cherry-blossom-1781800134417-copy_309ac125-19da-4ce1-8a7a-35b0d5363809.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800141827-gold-cherry-blossom-1781800139092-copy_ecdbd7dc-342b-48bb-b41b-a933d0b14c3b.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800145440-gold-cherry-blossom-1781800143188-copy_1a0a9f5d-23ac-4ded-9f99-816d38b06ff0.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
