@@ -2173,5 +2173,23 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1781800231025",
+    "name": "Luxury bow knot",
+    "material": "Anti tarnish",
+    "price": 229,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800204184-luxury-bow-knot-1781800201400-copy_afae40bd-cd62-4fce-9772-ac254fbef47b.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800222470-luxury-bow-knot-1781800219974-copy_50d5a1f3-4cbb-4d33-b10d-233418efc816.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800226426-luxury-bow-knot-1781800223944-copy_d8c3e9a6-57f1-486d-8397-ce4e8929e70c.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
