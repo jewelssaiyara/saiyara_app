@@ -2062,5 +2062,23 @@
     "description": "“All the products loved by our customers will be beautifully packed and provided in a premium gift box by Saiyara Jewels.” ✨🎁\nAlternative elegant version:\n“We carefully curate and pack all your favorite products into a beautiful premium gift box from Saiyara Jewels.” 💎",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1781799495310",
+    "name": "Tulip imprint white pendant",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 229,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799467421-tulip-imprint-white-pendant-1781799465257-copy_0362c490-2b44-4cd9-92b8-82a3d2ec6227.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799471040-tulip-imprint-white-pendant-1781799469063-copy_df8c23ec-efe2-4e91-9f68-1ef56aa4d5af.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799490331-tulip-imprint-white-pendant-1781799487879-copy_46325a71-9e81-4330-8aca-dc1a8188adc5.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 5
   }
 ]
