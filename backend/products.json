@@ -2191,5 +2191,22 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1781800303015",
+    "name": "Wish hour pendant",
+    "material": "Anti tarnish",
+    "price": 229,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800284015-wish-hour-pendant-1781800280430-copy_ec492e28-2dc7-4338-b496-8abf531f35d7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800288199-wish-hour-pendant-1781800285673-copy_9ce6b606-9733-47eb-88fe-4d44149e096b.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
