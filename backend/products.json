@@ -2226,5 +2226,21 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1781800523211",
+    "name": "Heartsoul jwel pair",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 269,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800510144-heartsoul-jwel-pair-1781800507389-copy_24a2b587-1ab2-4845-aba9-aa2c42664b93.jpeg"
+    ],
+    "category": "Pair set",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
