@@ -2208,5 +2208,23 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1781800426078",
+    "name": "Chic black elegance pair",
+    "material": "Anti tarnish",
+    "price": 369,
+    "offerPrice": 299,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800411167-chic-black-elegance-pair-1781800408478-copy_fd5cc18e-f4e4-450e-bc34-a06750bde6ee.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800415344-chic-black-elegance-pair-1781800413033-copy_7d0e42b7-5724-48cb-9c64-66d84d34d84b.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800419487-chic-black-elegance-pair-1781800416728-copy_58fa3c0d-93c5-48ba-aace-ab5254e2ea07.jpeg"
+    ],
+    "category": "Pair set",
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
