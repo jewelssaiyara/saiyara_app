@@ -2135,5 +2135,24 @@
     "description": "",
     "soldOut": false,
     "stock": 1
+  },
+  {
+    "id": "1781800070878",
+    "name": "Diamond nest",
+    "material": "Anti tarnish",
+    "price": 299,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800044397-diamond-nest-1781800041505-copy_7747cce6-2b8e-41cc-93f9-e8c213ec55d0.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800047913-diamond-nest-1781800045709-copy_9369bebc-344a-46ff-93e5-9956620922c7.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800054187-diamond-nest-1781800049223-copy_86ff040a-4aec-4f14-8006-1c420319d014.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781800059333-diamond-nest-1781800056598-copy_46b14d9e-dd85-40d1-af10-d925997be62f.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
