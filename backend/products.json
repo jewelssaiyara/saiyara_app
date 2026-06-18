@@ -2117,5 +2117,23 @@
     "description": "",
     "soldOut": true,
     "stock": 1
+  },
+  {
+    "id": "1781799944448",
+    "name": "Aurora pearl butterfly",
+    "material": "Anti tarnish",
+    "price": 229,
+    "offerPrice": 199,
+    "images": [
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799931177-aurora-pearl-butterfly-1781799928567-copy_dd792931-a55e-4ab6-ad74-48c4a1a6491b.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799935325-aurora-pearl-butterfly-1781799932506-copy_b2ef6c11-1297-4298-8b45-988e8b9d6136.jpeg",
+      "https://raw.githubusercontent.com/jewelssaiyara/saiyara_app/main/frontend/public/uploads/1781799940350-aurora-pearl-butterfly-1781799937249-copy_3a34b650-9089-44e0-b22b-f517ffc8e932.jpeg"
+    ],
+    "category": "Neckpieces",
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   }
 ]
