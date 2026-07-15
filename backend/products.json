@@ -2189,7 +2189,7 @@
     "isBestSeller": true,
     "isNewArrival": false,
     "description": "",
-    "soldOut": false,
+    "soldOut": true,
     "stock": 1
   },
   {
