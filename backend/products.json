@@ -131,7 +131,10 @@
     ],
     "category": "Neckpieces",
     "isBestSeller": false,
-    "isNewArrival": true
+    "isNewArrival": true,
+    "description": "",
+    "soldOut": false,
+    "stock": 1
   },
   {
     "id": "1777797698890",
